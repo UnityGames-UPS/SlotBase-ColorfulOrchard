@@ -7,9 +7,9 @@ Darwin version:          25.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-05-25T12:15:11Z
+Date:                    2026-05-28T06:51:26Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ekansh" at "2026-05-25T12:15:11.596211Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ekansh" at "2026-05-28T06:51:26.874462Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.12f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50442
+49309
 -licensingIpc
 LicenseClient-ekansh
 -job-worker-count
@@ -70,12 +70,12 @@ Successfully changed project path to: /Users/ekansh/SlotBase-ColorfulOrchard
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8701358336]  Target information:
+Player connection [8318923008]  Target information:
 
-Player connection [8701358336]  * "[IP] 192.168.1.199 [Port] 0 [Flags] 2 [Guid] 192132203 [EditorId] 192132203 [Version] 1048832 [Id] OSXEditor(0,Ekanshs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8318923008]  * "[IP] 192.168.1.23 [Port] 0 [Flags] 2 [Guid] 3628828261 [EditorId] 3628828261 [Version] 1048832 [Id] OSXEditor(0,Ekanshs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8701358336] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8701358336] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8318923008] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8318923008] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 4
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -87,7 +87,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.12f1 (fca03ac9b0d5)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -108,29 +108,29 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.12f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.12f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.12f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56757
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-ekansh"
+[Licensing::IpcConnector] LicenseClient-ekansh channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ekansh-6000.3.12" at "2026-05-28T06:51:27.286444Z"
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.12f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 [Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.18.1'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-ekansh"
-[Licensing::IpcConnector] LicenseClient-ekansh channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ekansh-6000.3.12" at "2026-05-25T12:15:12.423501Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              815715dfdd6444029fe3bed86886ab7a
-  Correlation Id:          20aa0411ca7dcda9cc848e8e3911efae
-  External correlation Id: 331530113507521892
+  Session Id:              660d5dde717b4d6788893e0a01d14e55
+  Correlation Id:          5068442ea3bfe535d5d70223802da2d2
+  External correlation Id: 2222662020779388785
   Machine Id:              T6PRZgWmeJNN6t/qHh+fGWtf7D8=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ekansh-6000.3.12" (connect: 0.00s, validation: 0.00s, handshake: 0.70s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ekansh-6000.3.12-notifications" at "2026-05-25T12:15:13.124833Z"
-[Licensing::Module] Licensing Background thread has ended after 1.53s
-[Licensing::Module] Licensing is initialized (took 0.82s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ekansh-6000.3.12" (connect: 0.00s, validation: 0.00s, handshake: 0.38s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ekansh-6000.3.12-notifications" at "2026-05-28T06:51:27.663815Z"
+[Licensing::Module] Licensing Background thread has ended after 0.79s
+[Licensing::Module] Licensing is initialized (took 0.22s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 13469872263598-UnityPersXXXX
@@ -140,13 +140,13 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.3.12f1/Pla
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.12f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.12f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.828227 seconds.
-- Loaded All Assemblies, in  1.204 seconds
+Registered in 0.222011 seconds.
+- Loaded All Assemblies, in  0.555 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
-2026-05-25 17:45:13.449 Unity[3768:227175] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+2026-05-28 12:21:27.988 Unity[1757:128024] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -157,35 +157,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.386 seconds
-Domain Reload Profiling: 1591ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  0.400 seconds
+Domain Reload Profiling: 955ms
+	BeginReloadAssembly (70ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (866ms)
-	LoadAllAssembliesAndSetupDomain (179ms)
-		LoadAssemblies (110ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (260ms)
+	LoadAllAssembliesAndSetupDomain (176ms)
+		LoadAssemblies (70ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (175ms)
-			TypeCache.Refresh (173ms)
-				TypeCache.ScanAssembly (158ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (156ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (387ms)
+	FinalizeReload (400ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (335ms)
+		SetupLoadedEditorAssemblies (348ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (88ms)
+			InitializePlatformSupportModulesInManaged (92ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (107ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -197,10 +197,10 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.676 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.644 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
 Native extension for iOS target not found
-2026-05-25 17:45:14.953 Unity[3768:227175] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+2026-05-28 12:21:29.483 Unity[1757:128024] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -213,35 +213,35 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.546 seconds
-Domain Reload Profiling: 1221ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.588 seconds
+Domain Reload Profiling: 1232ms
+	BeginReloadAssembly (117ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (488ms)
-		LoadAssemblies (314ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (445ms)
+		LoadAssemblies (257ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (225ms)
-			TypeCache.Refresh (173ms)
-				TypeCache.ScanAssembly (148ms)
-			BuildScriptInfoCaches (40ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (156ms)
+			BuildScriptInfoCaches (44ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (546ms)
+	FinalizeReload (588ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (452ms)
+		SetupLoadedEditorAssemblies (482ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (273ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -332,18 +332,36 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.3.12f1/Unity.app/Contents/Helpers/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7056 unused Assets / (3.9 MB). Loaded Objects now: 7670.
-Memory consumption went from 124.3 MB to 120.4 MB.
-Total: 9.557334 ms (FindLiveObjects: 0.910250 ms CreateObjectMapping: 0.255125 ms MarkObjects: 6.085417 ms  DeleteObjects: 2.306250 ms)
+Unloading 7056 unused Assets / (3.8 MB). Loaded Objects now: 7670.
+Memory consumption went from 126.0 MB to 122.3 MB.
+Total: 12.170959 ms (FindLiveObjects: 1.615750 ms CreateObjectMapping: 0.387042 ms MarkObjects: 7.206041 ms  DeleteObjects: 2.961625 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20211.261801 seconds.
-  path: Assets/_Recovery
-  artifactKey: Guid(aeb55cf1e00cc48c5a376cad8abf126f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Recovery using Guid(aeb55cf1e00cc48c5a376cad8abf126f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22391d99b4e13168a4165a747bf17357') in 0.029422583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 9139.868282 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetPlusMinus_380x100_v04.png
+  artifactKey: Guid(37c8ba3652a6247bc886a57b42a91416) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetPlusMinus_380x100_v04.png using Guid(37c8ba3652a6247bc886a57b42a91416) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: 'a93def5a8d90a1629c45dd23e5b656f1') in 0.100025208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 286.290041 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinus_Disabled.png
+  artifactKey: Guid(37c8ba3652a6247bc886a57b42a91416) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinus_Disabled.png using Guid(37c8ba3652a6247bc886a57b42a91416) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ae1aab19b50fa614b6e60c28fc9567a') in 0.007285208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinusPressed.png
+  artifactKey: Guid(9928d9a49738d4ff6af27aa6e248f16c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinusPressed.png using Guid(9928d9a49738d4ff6af27aa6e248f16c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6e7286cd33fd346e35884f5b791138a') in 0.006082083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 

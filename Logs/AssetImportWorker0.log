@@ -7,9 +7,9 @@ Darwin version:          25.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-05-25T12:15:11Z
+Date:                    2026-05-28T06:51:23Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ekansh" at "2026-05-25T12:15:11.596235Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ekansh" at "2026-05-28T06:51:23.252424Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.12f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50442
+49309
 -licensingIpc
 LicenseClient-ekansh
 -job-worker-count
@@ -70,12 +70,12 @@ Successfully changed project path to: /Users/ekansh/SlotBase-ColorfulOrchard
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8701358336]  Target information:
+Player connection [8318923008]  Target information:
 
-Player connection [8701358336]  * "[IP] 192.168.1.199 [Port] 0 [Flags] 2 [Guid] 2171709877 [EditorId] 2171709877 [Version] 1048832 [Id] OSXEditor(0,Ekanshs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8318923008]  * "[IP] 192.168.1.23 [Port] 0 [Flags] 2 [Guid] 1937925781 [EditorId] 1937925781 [Version] 1048832 [Id] OSXEditor(0,Ekanshs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8701358336] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8701358336] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8318923008] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8318923008] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 4
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -87,7 +87,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 4.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.12f1 (fca03ac9b0d5)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -108,29 +108,29 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.12f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.12f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.12f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56766
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56754
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-ekansh"
+[Licensing::IpcConnector] LicenseClient-ekansh channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ekansh-6000.3.12" at "2026-05-28T06:51:23.696656Z"
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.12f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 [Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.18.1'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-ekansh"
-[Licensing::IpcConnector] LicenseClient-ekansh channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ekansh-6000.3.12" at "2026-05-25T12:15:12.426006Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              128bfda07b454a4ca07e53599fe2a212
-  Correlation Id:          20aa0411ca7dcda9cc848e8e3911efae
-  External correlation Id: 2677528085109498983
+  Session Id:              6993380f41274bd8a9e7ac8416c9a8dd
+  Correlation Id:          5068442ea3bfe535d5d70223802da2d2
+  External correlation Id: 7457547860761339830
   Machine Id:              T6PRZgWmeJNN6t/qHh+fGWtf7D8=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ekansh-6000.3.12" (connect: 0.00s, validation: 0.00s, handshake: 0.70s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ekansh-6000.3.12-notifications" at "2026-05-25T12:15:13.126533Z"
-[Licensing::Module] Licensing Background thread has ended after 1.53s
-[Licensing::Module] Licensing is initialized (took 0.83s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ekansh-6000.3.12" (connect: 0.00s, validation: 0.00s, handshake: 0.38s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ekansh-6000.3.12-notifications" at "2026-05-28T06:51:24.075389Z"
+[Licensing::Module] Licensing Background thread has ended after 0.82s
+[Licensing::Module] Licensing is initialized (took 0.16s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 13469872263598-UnityPersXXXX
@@ -140,13 +140,13 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.3.12f1/Pla
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.12f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.12f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.828593 seconds.
-- Loaded All Assemblies, in  1.204 seconds
+Registered in 0.169453 seconds.
+- Loaded All Assemblies, in  0.561 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
-2026-05-25 17:45:13.455 Unity[3766:227173] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+2026-05-28 12:21:24.421 Unity[1754:127838] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -157,35 +157,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.386 seconds
-Domain Reload Profiling: 1591ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  0.423 seconds
+Domain Reload Profiling: 984ms
+	BeginReloadAssembly (119ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (36ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (867ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (110ms)
+	initialDomainReloadingComplete (206ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (121ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (175ms)
-			TypeCache.Refresh (173ms)
-				TypeCache.ScanAssembly (158ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (167ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (386ms)
+	FinalizeReload (424ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (335ms)
+		SetupLoadedEditorAssemblies (369ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (93ms)
+			InitializePlatformSupportModulesInManaged (98ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (107ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -197,10 +197,10 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.676 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.719 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
 Native extension for iOS target not found
-2026-05-25 17:45:14.953 Unity[3766:227173] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+2026-05-28 12:21:26.029 Unity[1754:127838] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -213,35 +213,35 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.543 seconds
-Domain Reload Profiling: 1219ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.581 seconds
+Domain Reload Profiling: 1300ms
+	BeginReloadAssembly (115ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (34ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (38ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (488ms)
-		LoadAssemblies (314ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (520ms)
+		LoadAssemblies (329ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (225ms)
-			TypeCache.Refresh (173ms)
-				TypeCache.ScanAssembly (148ms)
-			BuildScriptInfoCaches (40ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (544ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (159ms)
+			BuildScriptInfoCaches (45ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (582ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (450ms)
+		SetupLoadedEditorAssemblies (480ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (117ms)
-			ProcessInitializeOnLoadAttributes (272ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -332,18 +332,348 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.3.12f1/Unity.app/Contents/Helpers/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7056 unused Assets / (4.0 MB). Loaded Objects now: 7670.
-Memory consumption went from 126.2 MB to 122.2 MB.
-Total: 10.125542 ms (FindLiveObjects: 0.827125 ms CreateObjectMapping: 0.265083 ms MarkObjects: 6.168708 ms  DeleteObjects: 2.864375 ms)
+Unloading 7056 unused Assets / (3.7 MB). Loaded Objects now: 7670.
+Memory consumption went from 126.2 MB to 122.5 MB.
+Total: 10.259125 ms (FindLiveObjects: 0.498000 ms CreateObjectMapping: 0.306000 ms MarkObjects: 6.853500 ms  DeleteObjects: 2.601209 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20211.262207 seconds.
-  path: Assets/_Recovery/0.unity
-  artifactKey: Guid(c1f40434ecc9f4445811448cb0ca7601) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Recovery/0.unity using Guid(c1f40434ecc9f4445811448cb0ca7601) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8f20e64aea8b17222cf94bede880a10') in 0.089984541 seconds
+  Time since last request: 8671.747350 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec9f179a2b6f3fffe348069c7480016f') in 0.094056875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 182.899492 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6fae9c3b408fa55e78a65834398a1074') in 0.064287875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.700613 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3eb21092aebeaef2497532bb5a4c7e77') in 0.066840375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.327361 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetPlusMinus_380x100_v01.png
+  artifactKey: Guid(b564f1abea1f742939a6e674a882b975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetPlusMinus_380x100_v01.png using Guid(b564f1abea1f742939a6e674a882b975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '9e3476de1297af8692675c769fb9d350') in 0.082031958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.873976 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetPlusMinus_380x100_v03.png
+  artifactKey: Guid(c3ba37eac1010432ea51f88ca37bb01b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetPlusMinus_380x100_v03.png using Guid(c3ba37eac1010432ea51f88ca37bb01b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b6c9bfe6f95c3b7b3484f62afabed55') in 0.059270708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetPlusMinus_380x100_v01.png
+  artifactKey: Guid(b564f1abea1f742939a6e674a882b975) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetPlusMinus_380x100_v01.png using Guid(b564f1abea1f742939a6e674a882b975) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '51ea5bcfc1ef6d641a654dc62528c5b3') in 0.006255208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetPlusMinus_380x100_v02.png
+  artifactKey: Guid(9928d9a49738d4ff6af27aa6e248f16c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetPlusMinus_380x100_v02.png using Guid(9928d9a49738d4ff6af27aa6e248f16c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '74032d115f0f1cec30c31b4df04569fd') in 0.008753666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.440320 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetPlusMinus_380x100_v02.png
+  artifactKey: Guid(9928d9a49738d4ff6af27aa6e248f16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetPlusMinus_380x100_v02.png using Guid(9928d9a49738d4ff6af27aa6e248f16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c151fd401857483b08d2224d5ced02c9') in 0.013814208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.743503 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetPlusMinus_380x100_v03.png
+  artifactKey: Guid(c3ba37eac1010432ea51f88ca37bb01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetPlusMinus_380x100_v03.png using Guid(c3ba37eac1010432ea51f88ca37bb01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c1594a0b5349fd071c7d383289b3bf1') in 0.008433375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.322542 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetPlusMinus_380x100_v04.png
+  artifactKey: Guid(37c8ba3652a6247bc886a57b42a91416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetPlusMinus_380x100_v04.png using Guid(37c8ba3652a6247bc886a57b42a91416) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97aacdc0f6bda03122040bb08c5c9db3') in 0.008960291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.505962 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetWord_380x100_v01.png
+  artifactKey: Guid(b2c4207ed3bc448a5b45f5c786fe0f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetWord_380x100_v01.png using Guid(b2c4207ed3bc448a5b45f5c786fe0f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '490a3586364c0d8917642431664d0c89') in 0.014532209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.970557 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetWord_380x100_v01.png
+  artifactKey: Guid(b2c4207ed3bc448a5b45f5c786fe0f70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/ColorfulOrchard_btn_BetWord_380x100_v01.png using Guid(b2c4207ed3bc448a5b45f5c786fe0f70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4af66d74ed0eecea1ab672c3f9b9fadf') in 0.008502167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.381834 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e9ff76a62b578a5622e12cf62d6328f') in 0.062182042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.802905 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinus_Normal.png
+  artifactKey: Guid(c3ba37eac1010432ea51f88ca37bb01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinus_Normal.png using Guid(c3ba37eac1010432ea51f88ca37bb01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4b12708e84cc47a7a07fabcd4efa60d') in 0.011554125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.960700 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinus_Normal.png
+  artifactKey: Guid(c3ba37eac1010432ea51f88ca37bb01b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinus_Normal.png using Guid(c3ba37eac1010432ea51f88ca37bb01b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b2418259a95b69a22ddaf90ff01c7f3') in 0.006884125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.781941 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinusHighlighted.png
+  artifactKey: Guid(b564f1abea1f742939a6e674a882b975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinusHighlighted.png using Guid(b564f1abea1f742939a6e674a882b975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a739f76400275acc74e343ae0b15298') in 0.013722458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.944986 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinusHighlighted.png
+  artifactKey: Guid(b564f1abea1f742939a6e674a882b975) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinusHighlighted.png using Guid(b564f1abea1f742939a6e674a882b975) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '486727077d6cbe45f53938529a043c89') in 0.006811083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.913297 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinusPressed.png
+  artifactKey: Guid(9928d9a49738d4ff6af27aa6e248f16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinusPressed.png using Guid(9928d9a49738d4ff6af27aa6e248f16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9851dde0d2e7111afe6213804f255f4') in 0.013292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.967793 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinusPressed.png
+  artifactKey: Guid(9928d9a49738d4ff6af27aa6e248f16c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinusPressed.png using Guid(9928d9a49738d4ff6af27aa6e248f16c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29312f460c195f6dd2e4bea634709345') in 0.007628833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.976434 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinus_Disabled.png
+  artifactKey: Guid(37c8ba3652a6247bc886a57b42a91416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinus_Disabled.png using Guid(37c8ba3652a6247bc886a57b42a91416) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2ea393f3cea225120981267b611e34c') in 0.011169958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.965514 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinus_Disabled.png
+  artifactKey: Guid(37c8ba3652a6247bc886a57b42a91416) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinus_Disabled.png using Guid(37c8ba3652a6247bc886a57b42a91416) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '923e6f000f1612fb69b183f66cba7e9a') in 0.007449833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.432306 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinusHighlighted.png
+  artifactKey: Guid(b564f1abea1f742939a6e674a882b975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinusHighlighted.png using Guid(b564f1abea1f742939a6e674a882b975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be5549b2e4c1fd7f41e92b00da582541') in 0.008999917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.970957 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinus_Normal.png
+  artifactKey: Guid(c3ba37eac1010432ea51f88ca37bb01b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinus_Normal.png using Guid(c3ba37eac1010432ea51f88ca37bb01b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be0630bad101123add23d02d5b64bb90') in 0.005694917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinusHighlighted.png
+  artifactKey: Guid(b564f1abea1f742939a6e674a882b975) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Colorful Orchard/PNG_folder/UI/COLORFULORCHARD_BTN/PlusMinusHighlighted.png using Guid(b564f1abea1f742939a6e674a882b975) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b14b9201bb4e558840a377fe980a4aff') in 0.004662666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.014113 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3bd40b7770043ca39af44b99e5a4bd7') in 0.06300725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.355544 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3587097329c4d12f46bba60bfb87c0e1') in 0.060116708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.279746 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '93799ab1544943fe7aa9883949c8fb4c') in 0.061184375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.464527 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1391518aabbba6e728572d1bfacdd94b') in 0.061191042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.165310 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1b90199ad9942dbbe8343c0eda149c6') in 0.058136625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.727303 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b582ead4725cb8a38e83023c7e3967de') in 0.059051292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.000012 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5339bbbab5ab813ef57e706c0488b2fc') in 0.061826583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.575528 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '663b1596fb40da95f0de8688b934f744') in 0.060194833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.864623 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd7758b98a9fddd1421db8193bc6ce59') in 0.061760917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.223396 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41cbd18b40765812174b7778c3e4108a') in 0.0618395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.092580 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72be155c39a8845004bed748c4aca0d0') in 0.058290209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.772334 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd16ffe640050a80591f3f0b7f58f81d0') in 0.06107375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.025293 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97696e40b2f38ef4473acf822d7f8839') in 0.063956375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.583519 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6dd4ce2597ef113c32c5641d18350031') in 0.060975584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.894353 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e9bb942932d2b775f6824b8824ef59a') in 0.062827458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 522.399137 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3725bafe53532fe1e6291421d46b7832') in 0.062889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.180530 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41afb693611fcf4aa59dfbf989d689f0') in 0.063174041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.873774 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd6bac6f451ba6356481134518fc31001') in 0.061432167 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
