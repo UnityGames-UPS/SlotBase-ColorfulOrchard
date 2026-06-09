@@ -114,9 +114,6 @@ public class SlotBehaviour : MonoBehaviour
   private SocketIOManager SocketManager;
 
   [SerializeField]
-  private GambleController gambleController;
-
-  [SerializeField]
   private Sprite[] Box_Sprites;
 
   [SerializeField]
@@ -470,14 +467,6 @@ public class SlotBehaviour : MonoBehaviour
     if (TotalBet_text) TotalBet_text.text = "99999";
   }
 
-  private void Update()
-  {
-     if (Input.GetKeyDown(KeyCode.D) && SlotStart_Button.interactable)
-     {
-         StartSlots();
-     }
-  }
-
   //internal void PopulateInitalSlots(int number, List<int> myvalues)
   //{
   //    PopulateSlot(myvalues, number);
@@ -611,9 +600,7 @@ public class SlotBehaviour : MonoBehaviour
 
   private void StartSlots(bool autoSpin = false)
   {
-    gambleController.GambleTweeningAnim(false);
     if (audioController) audioController.PlaySpinButtonAudio();
-    if (gambleController) gambleController.toggleDoubleButton(false);
     if (!autoSpin)
     {
       if (AutoSpinRoutine != null)
@@ -657,7 +644,6 @@ public class SlotBehaviour : MonoBehaviour
   private List<string> y_animationString;
   private IEnumerator TweenRoutine()
   {
-    gambleController.GambleTweeningAnim(false);
     // currentBet = SocketManager.InitialData.bets[BetCounter] * SocketManager.InitialData.lines.Count;
     // currentTotalBet=SocketManager.InitialData.bets[BetCounter]*SocketManager.InitialData.lines.Count;
     if (currentBalance < currentTotalBet && !IsFreeSpin)
@@ -864,24 +850,6 @@ public class SlotBehaviour : MonoBehaviour
       WinTween.Kill();
       TotalWin_text.transform.localScale = Vector3.one;
     }
-  }
-
-  private void ActivateGamble()
-  {
-    if (SocketManager.ResultData.payload.winAmount > 0)
-    {
-      gambleController.GambleTweeningAnim(true);
-      gambleController.toggleDoubleButton(true);
-    }
-  }
-
-  internal void DeactivateGamble()
-  {
-
-    StopAutoSpin();
-    //ToggleButtonGrp(true);
-
-    //TurboToggle();
   }
 
   internal void CheckWinPopups()

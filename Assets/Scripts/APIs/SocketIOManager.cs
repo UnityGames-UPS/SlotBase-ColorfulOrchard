@@ -34,7 +34,7 @@ public class SocketIOManager : MonoBehaviour
 
   [SerializeField] internal JSFunctCalls JSManager;
 
-  [SerializeField] protected string TestSocketURI = "https://sl3l5zz3-5000.inc1.devtunnels.ms/";
+  [SerializeField] protected string TestSocketURI = "https://devrealtime.dingdinghouse.com/";
   protected string SocketURI = null;
   //protected string SocketURI = "https://6f01c04j-5000.inc1.devtunnels.ms/";
 

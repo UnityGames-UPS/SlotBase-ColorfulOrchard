@@ -3948,123 +3948,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170110318}
   m_CullTransparentMesh: 1
---- !u!1 &170898736
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 170898738}
-  - component: {fileID: 170898737}
-  m_Layer: 0
-  m_Name: GambleController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &170898737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 170898736}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3963483709ec459d9e8cbf55584aa71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gamble_game: {fileID: 0}
-  doubleButton: {fileID: 0}
-  socketManager: {fileID: 500036492}
-  audioController: {fileID: 1523547263}
-  allcards:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  winamount: {fileID: 0}
-  slotController: {fileID: 2046803210}
-  HeartSpriteList:
-  - {fileID: 21300000, guid: 034e29fafe23249dc96268bfac0e6f5a, type: 3}
-  - {fileID: 21300000, guid: 11e4f858d87b14d8b8639ec2781e0ba4, type: 3}
-  - {fileID: 21300000, guid: 262231adf28594b0f936775b4a154865, type: 3}
-  - {fileID: 21300000, guid: cb2278e8f70bb45f1bef54a3c21373cd, type: 3}
-  - {fileID: 21300000, guid: 2836b16994005480cbaac71450bbf59f, type: 3}
-  - {fileID: 21300000, guid: 6ba10332e58654085b8a688e9eb97d86, type: 3}
-  - {fileID: 21300000, guid: be6c89d9fef4e46a88a56b2c4ad69430, type: 3}
-  - {fileID: 21300000, guid: c125e1ed5cc6940798c85207a129936c, type: 3}
-  - {fileID: 21300000, guid: 5e0483771a2fe41b090ac388709c8a48, type: 3}
-  - {fileID: 21300000, guid: 025917fc2ac974bbabe50492f0baee6a, type: 3}
-  - {fileID: 21300000, guid: 839762bb8441449f697f37de1bb9fda7, type: 3}
-  - {fileID: 21300000, guid: c0c1c082f047f4ae5be31f97bb9d844d, type: 3}
-  - {fileID: 21300000, guid: b675c9dd40a324b0d89080f8d6dd66f5, type: 3}
-  ClubSpriteList:
-  - {fileID: 21300000, guid: 415491bbbda5448dd872303d6a48a676, type: 3}
-  - {fileID: 21300000, guid: 6861958de74304fcaa760516fccb7046, type: 3}
-  - {fileID: 21300000, guid: e27f565cff89344db8591a9e9ca0712f, type: 3}
-  - {fileID: 21300000, guid: ba97d523c8acc4a619041bb8df4a13a6, type: 3}
-  - {fileID: 21300000, guid: 44c81fef0128f44d2be177bcfdf9e811, type: 3}
-  - {fileID: 21300000, guid: ec42d4da1f693465ca6395dd975a0ba8, type: 3}
-  - {fileID: 21300000, guid: c22c62f6a209b47879bdf483207f8eec, type: 3}
-  - {fileID: 21300000, guid: 314520c73abce42e99147d405987261f, type: 3}
-  - {fileID: 21300000, guid: eccf448ceb56e4b138373ffc9f66bafc, type: 3}
-  - {fileID: 21300000, guid: daf9579ba1e8940779f9ddb172e7959f, type: 3}
-  - {fileID: 21300000, guid: 6033124770d8b41cbbde67e8df05097e, type: 3}
-  - {fileID: 21300000, guid: 9fd835a3edc8842819eae4d318b9ece2, type: 3}
-  - {fileID: 21300000, guid: df2b93131e86d4587a3df35f94b122c2, type: 3}
-  SpadeSpriteList:
-  - {fileID: 21300000, guid: 5d1ca5a8115994a6ea408e014ecf89f5, type: 3}
-  - {fileID: 21300000, guid: 73a58b96edce84fe4b8b488cf57e341d, type: 3}
-  - {fileID: 21300000, guid: b9e3e99cb5cd84b5abbe7e5cc9f68114, type: 3}
-  - {fileID: 21300000, guid: ffe8b69ca3aa347af898478da7c46737, type: 3}
-  - {fileID: 21300000, guid: 5b041fa09ab01466584344d64f0d4c23, type: 3}
-  - {fileID: 21300000, guid: 6bd95f01077514f3290b240d000de110, type: 3}
-  - {fileID: 21300000, guid: d1133d9f9207b430f80f32a14dd72292, type: 3}
-  - {fileID: 21300000, guid: 956d81c421c3c4f32b959cf51d703c95, type: 3}
-  - {fileID: 21300000, guid: 40806b7987090492ea4c566cb36035a8, type: 3}
-  - {fileID: 21300000, guid: 388e3c2ba61f4447294c6a12dd1a04b0, type: 3}
-  - {fileID: 21300000, guid: a18a715e9e6d541fdbc22e1d62611547, type: 3}
-  - {fileID: 21300000, guid: b021cb529dc0e444f93f645ca38d6a42, type: 3}
-  - {fileID: 21300000, guid: 8946cbe10351342d3ba373db14bdf167, type: 3}
-  DiamondSpriteList:
-  - {fileID: 21300000, guid: 19b20963df5324735b87fbfb13378aab, type: 3}
-  - {fileID: 21300000, guid: 7c66546fdb827471789abffbad8bb38b, type: 3}
-  - {fileID: 21300000, guid: 702e2c766781549b9a02f3694a4cd172, type: 3}
-  - {fileID: 21300000, guid: 8e1022d96153146c8ad11aeec50ea414, type: 3}
-  - {fileID: 21300000, guid: 9d523f0e4e44a4884a10dd5ddf8648ce, type: 3}
-  - {fileID: 21300000, guid: 60450df1d015a4ea3aa9faf12d6caaf0, type: 3}
-  - {fileID: 21300000, guid: 3c77ffa68f6d641c8a174d90f7721549, type: 3}
-  - {fileID: 21300000, guid: d64a7d003db2d4afcb2bcc0939830a11, type: 3}
-  - {fileID: 21300000, guid: 96878df7a4e514c82a10e8d2cc91fee5, type: 3}
-  - {fileID: 21300000, guid: e1800483732ed4a77957197dc3c8b3a5, type: 3}
-  - {fileID: 21300000, guid: 179c2d8f9bfc848ecb34060043762ae5, type: 3}
-  - {fileID: 21300000, guid: 97b16c2be24f74ec483a7a4c62f2bef8, type: 3}
-  - {fileID: 21300000, guid: b1af33909b296454182d866cd62b91a3, type: 3}
-  cardCover: {fileID: 21300000, guid: bf91e4e3a08ba43279559be273fb1a00, type: 3}
-  DealerCard_Script: {fileID: 0}
-  GambleEnd_Object: {fileID: 0}
-  m_Collect_Button: {fileID: 0}
-  m_Double_Button: {fileID: 0}
-  loadingScreen: {fileID: 0}
-  slider: {fileID: 0}
---- !u!4 &170898738
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 170898736}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.37084168, y: -1.9686911, z: 140.22824}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &176628432
 GameObject:
   m_ObjectHideFlags: 0
@@ -11573,7 +11456,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &500036491
 Transform:
   m_ObjectHideFlags: 0
@@ -11605,8 +11488,8 @@ MonoBehaviour:
   uiManager: {fileID: 377874625}
   bonusController: {fileID: 1450274932}
   JSManager: {fileID: 1989661610}
-  TestSocketURI: http://localhost:5000/
-  testToken: 39a5593b00fe49d4924b21d433a7676d
+  TestSocketURI: https://devrealtime.dingdinghouse.com/
+  testToken: 2ff586de87c14c17a766cbb4b1bb9e78
 --- !u!1 &505776123
 GameObject:
   m_ObjectHideFlags: 0
@@ -45746,7 +45629,6 @@ MonoBehaviour:
   IconSizeFactor: 241
   verticalVisibility: 3
   SocketManager: {fileID: 500036492}
-  gambleController: {fileID: 170898737}
   Box_Sprites:
   - {fileID: 21300000, guid: 7491a2c9aa899402ba66d7ec30e63455, type: 3}
   - {fileID: 21300000, guid: 423d9b83fe50648b18f7c7ecd29b8363, type: 3}
@@ -48042,7 +47924,6 @@ SceneRoots:
   - {fileID: 377874624}
   - {fileID: 500036491}
   - {fileID: 1450274933}
-  - {fileID: 170898738}
   - {fileID: 1523547264}
   - {fileID: 1762702793}
   - {fileID: 1989661609}
