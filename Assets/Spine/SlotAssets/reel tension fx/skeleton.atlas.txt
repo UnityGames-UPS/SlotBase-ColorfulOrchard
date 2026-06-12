@@ -1,0 +1,7 @@
+skeleton.png
+size:129,127
+filter:Linear,Linear
+pma:true
+reel tension_16
+bounds:2,2,125,123
+offsets:0,2,125,125

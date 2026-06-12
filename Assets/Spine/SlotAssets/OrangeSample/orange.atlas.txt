@@ -1,7 +1,0 @@
-orange.png
-size:199,168
-filter:Linear,Linear
-pma:true
-orange
-bounds:2,2,195,164
-offsets:1,1,197,166

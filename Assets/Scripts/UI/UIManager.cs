@@ -185,11 +185,6 @@ public class UIManager : MonoBehaviour
 
     if (MegaWinHideBtn) MegaWinHideBtn.onClick.RemoveAllListeners();
     if (MegaWinHideBtn) MegaWinHideBtn.onClick.AddListener(OnClickMegaWinHide);
-    //if (Gamble_button) Gamble_button.onClick.RemoveAllListeners();
-    //if (Gamble_button) Gamble_button.onClick.AddListener(delegate { OpenPopup(Gamble_game); });
-
-    //if (GambleExit_button) GambleExit_button.onClick.RemoveAllListeners();
-    //if (GambleExit_button) GambleExit_button.onClick.AddListener(delegate { ClosePopup(Gamble_game); });
 
     if (GameExit_Button) GameExit_Button.onClick.RemoveAllListeners();
     if (GameExit_Button) GameExit_Button.onClick.AddListener(delegate { OpenPopup(QuitPopup_Object); });
@@ -314,7 +309,7 @@ public class UIManager : MonoBehaviour
 
   internal void InitialiseUIData(Paylines symbolsText)
   {
-    PopulateSymbolsPayout(symbolsText);
+    // PopulateSymbolsPayout(symbolsText);
   }
 
   private void PopulateSymbolsPayout(Paylines paylines)

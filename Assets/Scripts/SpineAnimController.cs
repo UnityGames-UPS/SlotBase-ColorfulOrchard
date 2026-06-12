@@ -15,19 +15,6 @@ public class SpineAnimController : MonoBehaviour
         skeletonGraphic = GetComponent<SkeletonGraphic>();
     }
 
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.A))
-        {
-            Play(true);
-        }
-
-        if(Input.GetKeyDown(KeyCode.S))
-        {
-            Stop();
-        }
-    }
-
     // ▶️ Play
     internal void Play(bool loop)
     {

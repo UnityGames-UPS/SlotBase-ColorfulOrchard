@@ -169,8 +169,7 @@ public class SocketIOManager : MonoBehaviour
     gameSocket.On<Error>(SocketIOEventTypes.Error, OnError);
     gameSocket.On<string>("game:init", OnListenEvent);
     gameSocket.On<string>("result", OnResult);
-    //gameSocket.On<string>("gamble:result", OnGameResult);
-    //gameSocket.On<string>("bonus:result", OnBonusResult);
+    gameSocket.On<string>("bonus:result", OnBonusResult);
     gameSocket.On<bool>("socketState", OnSocketState);
     gameSocket.On<string>("internalError", OnSocketError);
     gameSocket.On<string>("alert", OnSocketAlert);
@@ -396,7 +395,7 @@ public class SocketIOManager : MonoBehaviour
     slotManager.shuffleInitialMatrix();
     for (int i = 0; i < LineIds.Count; i++)
     {
-      slotManager.FetchLines(LineIds[i], i);
+      slotManager.FetchLines(LineIds[i], i + 1);
     }
 
     slotManager.SetInitialUI();
@@ -566,24 +565,6 @@ public class SocketIOManager : MonoBehaviour
   //    }
   //    return bonusDataString;
   //}
-  private void PopulateSlotSocket(List<string> slotPop, List<string> LineIds)
-  {
-    slotManager.shuffleInitialMatrix();
-
-    for (int i = 0; i < LineIds.Count; i++)
-    {
-      slotManager.FetchLines(LineIds[i], i);
-    }
-
-    slotManager.SetInitialUI();
-
-    isLoaded = true;
-
-#if UNITY_WEBGL && !UNITY_EDITOR
-        JSManager.SendCustomMessage("OnEnter");
-#endif
-
-  }
 
   internal void AccumulateResult(double currBet)
   {
@@ -730,39 +711,12 @@ public class SentDeta
   public int index;
 }
 
-
-[Serializable]
-public class GambleResult
-{
-  public string id;
-  public bool success;
-  public Player player;
-  public GambleResultData payload;
-}
-
-[Serializable]
-public class GambleResultData
-{
-  public bool playerWon;
-  public double currentWinning;
-  public int cardId;
-}
 [Serializable]
 public class BonusData
 {
   public string type;
   public string Event;
   public int index;
-}
-
-[Serializable]
-public class GambleData
-{
-  public string type;
-  public double lastWinning;
-  public string cardSelected;
-  public string Event;
-
 }
 
 [Serializable]
@@ -779,7 +733,6 @@ public class GameData
 {
   public List<List<int>> lines { get; set; }
   public List<double> bets { get; set; }
-  public List<int> spinBonus { get; set; }
 }
 
 [Serializable]
@@ -794,14 +747,22 @@ public class Root
   public Jackpot jackpot { get; set; }
   public Scatter scatter { get; set; }
   public FreeSpins freeSpin { get; set; }
+
   //Initial Data
   public string id { get; set; }
+  public Features features { get; set; }
   public GameData gameData { get; set; }
   public UiData uiData { get; set; }
   public Player player { get; set; }
   //Bonus Data
-
 }
+
+[Serializable]
+public class Features
+{
+    public Jackpot jackpot { get; set; }
+}
+
 [Serializable]
 public class Scatter
 {
@@ -816,16 +777,11 @@ public class Jackpot
 [Serializable]
 public class Payload
 {
+  public double currentWinning{ get; set; }
+  public double payout{ get; set; }
   public double winAmount { get; set; }
-  public List<Win> wins { get; set; }
-  //gamble
-  public bool playerWon { get; set; }
-  public double currentWinning { get; set; }
-  public Cards cards { get; set; }
-  public double balance { get; set; }
-
-  //bonus
-  public double payout { get; set; }
+  public List<LineWin> lineWins { get; set; }
+  public State state { get; set; }
 }
 [Serializable]
 public class Cards
@@ -834,11 +790,25 @@ public class Cards
   public int playerCard { get; set; }
 }
 [Serializable]
-public class Win
+public class LineWin
 {
-  public int line { get; set; }
-  public List<int> positions { get; set; }
   public double amount { get; set; }
+  public int line { get; set; }
+  public int occurrences { get; set; }
+  public List<List<int>> positions { get; set; }
+  public int symbol { get; set; }
+  public string type { get; set; }
+}    
+
+[Serializable]
+public class State
+{
+  public string mode { get; set; }
+  public int freeSpinsLeft { get; set; }
+  public double freeSpinTotalWin { get; set; }
+  public double jackpotTotal { get; set; }
+  public double jackpotWin { get; set; }
+  public bool jackpotHit { get; set; }
 }
 
 

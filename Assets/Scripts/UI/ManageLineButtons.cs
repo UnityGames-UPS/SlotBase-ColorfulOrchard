@@ -8,9 +8,6 @@ using DG.Tweening;
 
 public class ManageLineButtons : MonoBehaviour, IPointerEnterHandler,IPointerExitHandler, IPointerUpHandler,IPointerDownHandler
 {
-
-	[SerializeField]
-	private PayoutCalculation payManager;
 	[SerializeField]
 	private TMP_Text num_text;
 	[SerializeField]
@@ -44,7 +41,6 @@ public class ManageLineButtons : MonoBehaviour, IPointerEnterHandler,IPointerExi
 	{
 		if (Application.platform == RuntimePlatform.WebGLPlayer && Application.isMobilePlatform && isEnabled)
 		{
-			payManager.ResetLines();
 			this.gameObject.GetComponent<Button>().Select();
 			if (_ConnectedLine) _ConnectedLine.SetActive(true);
 		}
