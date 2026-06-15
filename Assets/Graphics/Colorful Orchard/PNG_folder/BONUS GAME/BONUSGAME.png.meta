@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 49097e3c4a06a4347a257aa917651885
+guid: 86582a4e0279b4f9cad1245f310258d3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1815645688583757940
-    second: ColorfulOrchard_symbol_bar_220x220_v01_0
+      213: 3423833377432254156
+    second: BONUSGAME_0
+  - first:
+      213: -659100389600939846
+    second: BONUSGAME_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -139,13 +142,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ColorfulOrchard_symbol_bar_220x220_v01_0
+      name: BONUSGAME_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 23
-        width: 181
-        height: 188
+        x: 25
+        y: 51
+        width: 929
+        height: 249
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +157,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8fdefdadd78dc6e0800000000000000
-      internalID: -1815645688583757940
+      spriteID: cc6b9f70156e38f20800000000000000
+      internalID: 3423833377432254156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BONUSGAME_1
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 52
+        width: 711
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0b38e00b76ad6f0800000000000000
+      internalID: -659100389600939846
       vertices: []
       indices: 
       edges: []
@@ -174,7 +199,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ColorfulOrchard_symbol_bar_220x220_v01_0: -1815645688583757940
+      BONUSGAME_0: 3423833377432254156
+      BONUSGAME_1: -659100389600939846
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

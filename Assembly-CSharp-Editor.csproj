@@ -1365,6 +1365,7 @@
     <ProjectReference Include="Unity.TextMeshPro.csproj" />
     <ProjectReference Include="PsdPlugin.csproj" />
     <ProjectReference Include="Unity.2D.IK.Runtime.csproj" />
+    <ProjectReference Include="ProceduralEditor.csproj" />
     <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj" />
     <ProjectReference Include="Unity.2D.Animation.Editor.csproj" />
     <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj" />
@@ -1411,6 +1412,7 @@
     <ProjectReference Include="Unity.Multiplayer.Center.Editor.csproj" />
     <ProjectReference Include="com.Tivadar.Best.WebSockets.csproj" />
     <ProjectReference Include="spine-unity-editor.csproj" />
+    <ProjectReference Include="Procedural.csproj" />
     <ProjectReference Include="Unity.VisualScripting.State.csproj" />
     <ProjectReference Include="Unity.Collections.Editor.csproj" />
     <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj" />

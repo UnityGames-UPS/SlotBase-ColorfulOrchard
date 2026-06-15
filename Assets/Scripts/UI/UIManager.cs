@@ -25,13 +25,21 @@ public class UIManager : MonoBehaviour
   [SerializeField]
   private Button PaytableExit_Button;
   [SerializeField]
-  private Button Next_Button;
+  private Button Rules_Button;
   [SerializeField]
-  private Button Previous_Button;
-  private int paginationCounter = 1;
-  [SerializeField] private GameObject[] PageList;
-  [SerializeField] private Button[] paginationButtonGrp;
-  [SerializeField] private Button Infoback_button;
+  private Button Paylines_Button;
+  [SerializeField]
+  private Button Paytable_Button;
+  [SerializeField]
+  private Button Bonus_Button;
+  [SerializeField]
+  private Button Jackpot_Button;
+  [SerializeField]
+  private TMP_Text[] Header_texts;
+  [SerializeField]
+  private GameObject[] HeaderSelection_Objects;
+  [SerializeField]
+  private GameObject[] PageList;
   [SerializeField]
   private TMP_Text[] SymbolsText;
   [SerializeField]
@@ -135,35 +143,24 @@ public class UIManager : MonoBehaviour
   [SerializeField] internal GameObject RaycastBlocker;
   private void Start()
   {
-    if (Info_Button) Info_Button.onClick.RemoveAllListeners();
-    if (Info_Button) Info_Button.onClick.AddListener(delegate { paginationCounter = 1; GoToPage(0); OpenPopup(PaytablePopup_Object); });
 
     if (PaytableExit_Button) PaytableExit_Button.onClick.RemoveAllListeners();
     if (PaytableExit_Button) PaytableExit_Button.onClick.AddListener(delegate { ClosePopup(PaytablePopup_Object); });
 
-    if (Next_Button) Next_Button.onClick.RemoveAllListeners();
-    if (Next_Button) Next_Button.onClick.AddListener(delegate { TurnPage(true); });
+    if (Rules_Button) Rules_Button.onClick.RemoveAllListeners();
+    if (Rules_Button) Rules_Button.onClick.AddListener(delegate { OpenPage(0); });
 
-    if (Previous_Button) Previous_Button.onClick.RemoveAllListeners();
-    if (Previous_Button) Previous_Button.onClick.AddListener(delegate { TurnPage(false); });
+    if (Paylines_Button) Paylines_Button.onClick.RemoveAllListeners();
+    if (Paylines_Button) Paylines_Button.onClick.AddListener(delegate { OpenPage(1); });
 
-    if (Previous_Button) Previous_Button.interactable = false;
+    if (Paytable_Button) Paytable_Button.onClick.RemoveAllListeners();
+    if (Paytable_Button) Paytable_Button.onClick.AddListener(delegate { OpenPage(2); });
 
-    if (paginationButtonGrp[0]) paginationButtonGrp[0].onClick.RemoveAllListeners();
-    if (paginationButtonGrp[0]) paginationButtonGrp[0].onClick.AddListener(delegate { GoToPage(0); });
+    if (Bonus_Button) Bonus_Button.onClick.RemoveAllListeners();
+    if (Bonus_Button) Bonus_Button.onClick.AddListener(delegate { OpenPage(3); });
 
-    if (paginationButtonGrp[1]) paginationButtonGrp[1].onClick.RemoveAllListeners();
-    if (paginationButtonGrp[1]) paginationButtonGrp[1].onClick.AddListener(delegate { GoToPage(1); });
-
-    if (paginationButtonGrp[2]) paginationButtonGrp[2].onClick.RemoveAllListeners();
-    if (paginationButtonGrp[2]) paginationButtonGrp[2].onClick.AddListener(delegate { GoToPage(2); });
-
-    if (paginationButtonGrp[3]) paginationButtonGrp[3].onClick.RemoveAllListeners();
-    if (paginationButtonGrp[3]) paginationButtonGrp[3].onClick.AddListener(delegate { GoToPage(3); });
-
-    if (Infoback_button) Infoback_button.onClick.RemoveAllListeners();
-    if (Infoback_button) Infoback_button.onClick.AddListener(delegate { ClosePopup(PaytablePopup_Object); });
-
+    if (Jackpot_Button) Jackpot_Button.onClick.RemoveAllListeners();
+    if (Jackpot_Button) Jackpot_Button.onClick.AddListener(delegate { OpenPage(4); });
 
     if (Setting_button) Setting_button.onClick.RemoveAllListeners();
     if (Setting_button) Setting_button.onClick.AddListener(delegate { OpenPopup(Setting_panel); });
@@ -396,46 +393,23 @@ public class UIManager : MonoBehaviour
     }
   }
 
-  private void TurnPage(bool type)
+  private void OpenPage(int counter)
   {
-    if (audioController) audioController.PlayButtonAudio();
-
-    if (type)
-      paginationCounter++;
-    else
-      paginationCounter--;
-
-
-    GoToPage(paginationCounter - 1);
-
-
-  }
-
-  private void GoToPage(int index)
-  {
-
-    paginationCounter = index + 1;
-
-    paginationCounter = Mathf.Clamp(paginationCounter, 1, 6);
-
-    if (Next_Button) Next_Button.interactable = !(paginationCounter >= 6);
-
-    if (Previous_Button) Previous_Button.interactable = !(paginationCounter <= 1);
-
-    for (int i = 0; i < PageList.Length; i++)
+    foreach (GameObject p in PageList)
     {
-      PageList[i].SetActive(false);
+      p.SetActive(false);
     }
-
-    for (int i = 0; i < paginationButtonGrp.Length; i++)
+    foreach (GameObject p in HeaderSelection_Objects)
     {
-      paginationButtonGrp[i].interactable = true;
-      paginationButtonGrp[i].transform.GetChild(0).gameObject.SetActive(false);
+      p.SetActive(false);
     }
-
-    PageList[paginationCounter - 1].SetActive(true);
-    paginationButtonGrp[paginationCounter - 1].interactable = false;
-    paginationButtonGrp[paginationCounter - 1].transform.GetChild(0).gameObject.SetActive(true);
+    foreach (TMP_Text p in Header_texts)
+    {
+      p.color = Color.white;
+    }
+    PageList[counter].SetActive(true);
+    HeaderSelection_Objects[counter].SetActive(true);
+    Header_texts[counter].color = Color.green;
   }
 
   private void ChangeSound()
