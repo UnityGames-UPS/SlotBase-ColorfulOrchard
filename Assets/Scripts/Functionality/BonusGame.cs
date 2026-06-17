@@ -1,179 +1,103 @@
-using System.Collections;
 using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using DG.Tweening;
-using Newtonsoft.Json;
 
 
 public class BonusGame : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject BonusGame_Screen;
+    [SerializeField]
+    private TMP_Text Totalscore_text;
+    [SerializeField]
+    private TMP_Text times_text;
+    [SerializeField]
+    private List<OuterReelItem> SelectorItems;
+    [SerializeField]
+    private SocketIOManager socketManager;
+    [SerializeField]
+    private SlotBehaviour slotmanager;
+    [SerializeField]
+    private Button Lever_Button;
 
-    [SerializeField] private Button[] btn;
-    //[SerializeField] private Button btn2;
-    //[SerializeField] private Button btn3;
-    //[SerializeField] private Button btn4;
-    //[SerializeField] private Button btn5;
-
-    [SerializeField] private ImageAnimation[] imagelist;
-    [SerializeField] private TMP_Text[] textList;
-    [SerializeField] private Sprite[] GameOver;
-    [SerializeField] private Sprite[] Symbol2;
-    [SerializeField] private Sprite[] Symbol3;
-    [SerializeField] private Sprite[] Symbol4;
-    [SerializeField] private Sprite[] Symbol5;
-    [SerializeField] private GameObject RayCast_Panel;
-
-    //[SerializeField] private List<double> result = new List<double>();
-    // [SerializeField] private List<Button> tempButtonList = new List<Button>();
-    int counter = 0;
-    [SerializeField] private GameObject bonusGame;
-    [SerializeField] private SlotBehaviour slotBehaviour;
-    [SerializeField] private AudioController audioManager;
-    [SerializeField] private SocketIOManager SocketManager;
-    List<int> randomIndex = new List<int>();
-    internal bool WaitForBonusResult = true;
-
-    void Start()
+    private void Start()
     {
-        for (int i = 0; i < btn.Length; i++)
-        {
-            int index = i;
-            if (btn[index]) btn[index].onClick.RemoveAllListeners();
-            if (btn[index]) btn[index].onClick.AddListener(delegate { OnSelectGrave(btn[index], imagelist[index], textList[index], index); });
-        }
+        Lever_Button.onClick.RemoveAllListeners();
+        Lever_Button.onClick.AddListener(LeverHit);
     }
 
-    internal void StartBonusGame()
+    internal void StartBonus()
     {
-        if (audioManager) audioManager.SwitchBGSound(true);
-        if (RayCast_Panel) RayCast_Panel.SetActive(false);
-        Initialize();
-        bonusGame.SetActive(true);
-        //result.Clear();
-        //result = bonusResult;
-        //Debug.Log("bonus result in bonus game: ," + JsonConvert.SerializeObject(result));
+        BonusGame_Screen.SetActive(true);
+        currentIndex = 0;
+        foreach (OuterReelItem p in SelectorItems)
+        {
+            p.selector.SetActive(false);
+        }
+        spinCount = socketManager.ResultData.payload.state.bonusSpinsLeft;
+        times_text.text = spinCount.ToString();
+        Totalscore_text.text = "0.00";
+        Lever_Button.interactable = true;
     }
 
-    internal void resetgame()
+    private void LeverHit()
     {
-        if (audioManager) audioManager.SwitchBGSound(false);
-        slotBehaviour.updateBalance();
-        bonusGame.SetActive(false);
-        slotBehaviour.CheckPopups = false;
+        Debug.Log("hit the lever");
+        Lever_Button.interactable = false;
+        socketManager.AccumulateResult(0);
+        StartCoroutine(GameProcedure());
+        spinCount--;
+        times_text.text = spinCount.ToString();
     }
-
-    private void Initialize()
+    private int currentIndex = 0;
+    private int spinCount = 0;
+    private IEnumerator GameProcedure()
     {
-        randomIndex.Clear();
-        counter = 0;
+        int count = SelectorItems.Count;
 
-        foreach (var item in imagelist)
+        for (int loop = 0; loop < 2; loop++)
         {
-            item.textureArray.Clear();
-        }
-
-        foreach (var item in btn)
-        {
-            item.interactable = true;
-        }
-
-        foreach (var item in textList)
-        {
-            item.transform.localPosition = Vector2.zero;
-        }
-
-        for (int i = 0; i < 4; i++)
-        {
-            randomIndex.Add(i);
-        }
-    }
-
-    void OnSelectGrave(Button btn, ImageAnimation img, TMP_Text text, int graveNo)
-    {
-        if (RayCast_Panel) RayCast_Panel.SetActive(true);
-        btn.interactable = false;
-        StartCoroutine(DisplayBonusResult(btn, img, text, graveNo));
-    }
-
-    IEnumerator DisplayBonusResult(Button btn, ImageAnimation img, TMP_Text text, int graveNo)
-    {
-        int index = Random.Range(0, randomIndex.Count);
-
-        WaitForBonusResult = true;
-        SocketManager.OnBonusCollect(graveNo);
-        yield return new WaitUntil(() => !WaitForBonusResult);
-
-        if (SocketManager.bonusData.payload.payout == 0)
-        {
-            SocketManager.ResultData.payload.winAmount = SocketManager.bonusData.payload.winAmount;
-            if (audioManager) audioManager.PlayBonusAudio("lose");
-            PopulateAnimationSprites(img, -1);
-            text.text = "GAME OVER";
-            text.gameObject.SetActive(true);
-            text.transform.DOLocalMoveY(140, 1f).onComplete = () =>
+            for (int step = 0; step < count; step++)
             {
-                text.gameObject.SetActive(false);
-            };
-            img.StartAnimation();
-            Invoke("resetgame", 2f);
-            yield break;
+                StepForward();
+                yield return new WaitForSecondsRealtime(0.05f);
+            }
         }
-        if (audioManager) audioManager.PlayBonusAudio("win");
-        PopulateAnimationSprites(img, randomIndex[index]);
 
-        double value = SocketManager.bonusData.payload.winAmount;
-        text.text = "+" + value.ToString("0.000");
-
-        randomIndex.Remove(index);
-        text.gameObject.SetActive(true);
-        text.transform.DOLocalMoveY(140, 1f).onComplete = () =>
+        while (!socketManager.isResultdone)
         {
+            StepForward();
+            yield return new WaitForSecondsRealtime(0.05f);
+        }
 
-            text.gameObject.SetActive(false);
-
-        };
-
-        img.StartAnimation();
-        if (RayCast_Panel) RayCast_Panel.SetActive(false);
+        while (true)
+        {
+            StepForward();
+            if (SelectorItems[currentIndex].id == socketManager.BonusData.payload.hitDetails.symbol)
+            {
+                times_text.text = socketManager.BonusData.payload.state.bonusSpinsLeft.ToString();
+                Totalscore_text.text = socketManager.BonusData.payload.totalBonusWin.ToString();
+                if (socketManager.BonusData.payload.isLastSpin)
+                {
+                    BonusGame_Screen.SetActive(false);
+                    slotmanager.CheckPopups = false;
+                }
+                else
+                {
+                    Lever_Button.interactable = true;
+                }
+                yield break;
+            }
+            yield return new WaitForSecondsRealtime(0.5f);
+        }
     }
-
-    private void PopulateAnimationSprites(ImageAnimation animScript, int val)
+    private void StepForward()
     {
-        switch (val)
-        {
-            case -1:
-                for (int i = 0; i < GameOver.Length; i++)
-                {
-                    animScript.textureArray.Add(GameOver[i]);
-                }
-                break;
-            case 0:
-                for (int i = 0; i < Symbol2.Length; i++)
-                {
-                    animScript.textureArray.Add(Symbol2[i]);
-                }
-                break;
-            case 1:
-                for (int i = 0; i < Symbol3.Length; i++)
-                {
-                    animScript.textureArray.Add(Symbol3[i]);
-                }
-                break;
-            case 2:
-                for (int i = 0; i < Symbol4.Length; i++)
-                {
-                    animScript.textureArray.Add(Symbol4[i]);
-                }
-                break;
-            case 3:
-                for (int i = 0; i < Symbol5.Length; i++)
-                {
-                    animScript.textureArray.Add(Symbol5[i]);
-                }
-                break;
-        }
+        int next = (currentIndex + 1) % SelectorItems.Count;
+        SelectorItems[currentIndex].selector.SetActive(false);
+        SelectorItems[next].selector.SetActive(true);
+        currentIndex = next;
     }
-
 }

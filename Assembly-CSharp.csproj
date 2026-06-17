@@ -192,6 +192,7 @@
     <Compile Include="Assets/com.unity.uiextensions/Runtime/Scripts/Effects/ShineEffect.cs" />
     <Compile Include="Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/UISelectableExtension.cs" />
     <Compile Include="Assets/com.unity.uiextensions/Runtime/Scripts/Utilities/ReadOnlyAttribute.cs" />
+    <Compile Include="Assets/Scripts/Functionality/OuterReelItem.cs" />
     <Compile Include="Assets/com.unity.uiextensions/Runtime/Scripts/Effects/CurvedText.cs" />
     <Compile Include="Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ComboBox/DropDownListItem.cs" />
     <Compile Include="Assets/com.unity.uiextensions/Runtime/Scripts/Controls/ColorPicker/ColorImage.cs" />

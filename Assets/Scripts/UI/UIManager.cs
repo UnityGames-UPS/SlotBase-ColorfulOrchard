@@ -25,6 +25,8 @@ public class UIManager : MonoBehaviour
   [SerializeField]
   private Button PaytableExit_Button;
   [SerializeField]
+  private Button PaytableEntry_Button;
+  [SerializeField]
   private Button Rules_Button;
   [SerializeField]
   private Button Paylines_Button;
@@ -43,9 +45,9 @@ public class UIManager : MonoBehaviour
   [SerializeField]
   private TMP_Text[] SymbolsText;
   [SerializeField]
-  private TMP_Text FreeSpin_Text;
-  [SerializeField]
   private TMP_Text Scatter_Text;
+  [SerializeField]
+  private TMP_Text Jackpot_Text;
 
   [SerializeField] private TMP_Text Bonus_Text;
 
@@ -146,6 +148,9 @@ public class UIManager : MonoBehaviour
 
     if (PaytableExit_Button) PaytableExit_Button.onClick.RemoveAllListeners();
     if (PaytableExit_Button) PaytableExit_Button.onClick.AddListener(delegate { ClosePopup(PaytablePopup_Object); });
+
+    if (PaytableEntry_Button) PaytableEntry_Button.onClick.RemoveAllListeners();
+    if (PaytableEntry_Button) PaytableEntry_Button.onClick.AddListener(delegate { OpenPopup(PaytablePopup_Object); });
 
     if (Rules_Button) Rules_Button.onClick.RemoveAllListeners();
     if (Rules_Button) Rules_Button.onClick.AddListener(delegate { OpenPage(0); });
@@ -306,7 +311,7 @@ public class UIManager : MonoBehaviour
 
   internal void InitialiseUIData(Paylines symbolsText)
   {
-    // PopulateSymbolsPayout(symbolsText);
+    PopulateSymbolsPayout(symbolsText);
   }
 
   private void PopulateSymbolsPayout(Paylines paylines)
@@ -332,17 +337,13 @@ public class UIManager : MonoBehaviour
 
     for (int i = 0; i < paylines.symbols.Count; i++)
     {
-      if (paylines.symbols[i].name.ToUpper() == "FREESPIN")
-      {
-        if (FreeSpin_Text) FreeSpin_Text.text = paylines.symbols[i].description.ToString();
-      }
       if (paylines.symbols[i].name.ToUpper() == "SCATTER")
       {
         if (Scatter_Text) Scatter_Text.text = paylines.symbols[i].description.ToString();
       }
       if (paylines.symbols[i].name.ToUpper() == "JACKPOT")
       {
-        // if (Jackpot_Text) Jackpot_Text.text = paylines.symbols[i].description.ToString();
+        if (Jackpot_Text) Jackpot_Text.text = paylines.symbols[i].description.ToString();
       }
       if (paylines.symbols[i].name.ToUpper() == "BONUS")
       {
@@ -353,9 +354,6 @@ public class UIManager : MonoBehaviour
         if (Wild_Text) Wild_Text.text = paylines.symbols[i].description.ToString();
       }
     }
-
-
-
   }
   internal void ReconnectionPopup()
   {
@@ -370,7 +368,6 @@ public class UIManager : MonoBehaviour
   }
   internal void CheckAndClosePopups()
   {
-
     if (ReconectingPopup_Object.activeInHierarchy)
     {
       ClosePopup(ReconectingPopup_Object);
@@ -385,7 +382,6 @@ public class UIManager : MonoBehaviour
   private void ClosePopup(GameObject Popup)
   {
     if (audioController) audioController.PlayButtonAudio();
-
     if (Popup) Popup.SetActive(false);
     if (!DisconnectPopup_Object.activeSelf)
     {
@@ -421,6 +417,5 @@ public class UIManager : MonoBehaviour
   private void ChangeMusic()
   {
     audioController.ChangeVolume("bg", Music_slider.value);
-
   }
 }

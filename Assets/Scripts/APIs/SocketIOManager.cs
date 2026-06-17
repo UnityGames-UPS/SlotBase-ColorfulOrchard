@@ -5,8 +5,6 @@ using System;
 using Newtonsoft.Json;
 using Best.SocketIO;
 using Best.SocketIO.Events;
-using System.Runtime.Serialization;
-using Newtonsoft.Json.Linq;
 
 public class SocketIOManager : MonoBehaviour
 {
@@ -16,12 +14,12 @@ public class SocketIOManager : MonoBehaviour
   [SerializeField] private BonusGame bonusController;
   internal GameData InitialData = null;
   internal UiData UIData = null;
+  internal Root InitialRootData = null;
   internal Root ResultData = null;
+  internal Root BonusData = null;
   internal Player PlayerData = null;
   internal Root GambleData = null;
-  internal Root bonusData = new();
   internal List<List<int>> LineData = null;
-  internal List<int> BonusData = null;
 
   // internal GambleResult gambleData = null;
   // internal Message myMessage = null;
@@ -452,6 +450,7 @@ public class SocketIOManager : MonoBehaviour
       case "initData":
         {
           InitialData = myData.gameData;
+          InitialRootData = myData;
           UIData = myData.uiData;
           PlayerData = myData.player;
 
@@ -512,11 +511,11 @@ public class SocketIOManager : MonoBehaviour
         {
           //Debug.Log(jsonObject);
           //UpdateUiOnResult(myData);
-          //isResultdone = true;
+          isResultdone = true;
 
-          bonusData = myData;
+          BonusData = myData;
           PlayerData = myData.player;
-          bonusController.WaitForBonusResult = false;
+          // bonusController.WaitForBonusResult = false;
           break;
         }
       case "ExitUser":
@@ -743,10 +742,8 @@ public class Root
   public List<List<string>> matrix { get; set; }
   public string name { get; set; }
   public Payload payload { get; set; }
-  public Bonus bonus { get; set; }
   public Jackpot jackpot { get; set; }
   public Scatter scatter { get; set; }
-  public FreeSpins freeSpin { get; set; }
 
   //Initial Data
   public string id { get; set; }
@@ -760,7 +757,7 @@ public class Root
 [Serializable]
 public class Features
 {
-    public Jackpot jackpot { get; set; }
+  public Jackpot jackpot { get; set; }
 }
 
 [Serializable]
@@ -777,11 +774,15 @@ public class Jackpot
 [Serializable]
 public class Payload
 {
-  public double currentWinning{ get; set; }
-  public double payout{ get; set; }
+  public double currentWinning { get; set; }
+  public double payout { get; set; }
   public double winAmount { get; set; }
   public List<LineWin> lineWins { get; set; }
   public State state { get; set; }
+  public HitDetails hitDetails { get; set; }
+  public string totalBonusWin { get; set; }
+  public int spinsLeft { get; set; }
+  public bool isLastSpin { get; set; }
 }
 [Serializable]
 public class Cards
@@ -798,7 +799,7 @@ public class LineWin
   public List<List<int>> positions { get; set; }
   public int symbol { get; set; }
   public string type { get; set; }
-}    
+}
 
 [Serializable]
 public class State
@@ -809,6 +810,8 @@ public class State
   public double jackpotTotal { get; set; }
   public double jackpotWin { get; set; }
   public bool jackpotHit { get; set; }
+  public bool bonusTriggered { get; set; }
+  public int bonusSpinsLeft { get; set; }
 }
 
 
@@ -818,14 +821,6 @@ public class FreeSpins
   public int count { get; set; }
   public bool isFreeSpin { get; set; }
 }
-
-[Serializable]
-public class Bonus
-{
-  public bool istriggered { get; set; }
-  public List<double> result { get; set; }
-}
-
 
 
 [Serializable]
@@ -869,4 +864,12 @@ public class AuthTokenData
   public string cookie;
   public string socketURL;
   public string nameSpace; //BackendChanges
+}
+
+[Serializable]
+public class HitDetails
+{
+  public int symbol { get; set; }
+  public double multiplier { get; set; }
+  public double win { get; set; }
 }
