@@ -1,0 +1,170 @@
+skeleton.png
+size:3558,383
+filter:Linear,Linear
+pma:true
+auto play fx/auto play button_000
+bounds:2,256,125,125
+auto play fx/auto play button_082
+bounds:2,256,125,125
+auto play fx/auto play button_001
+bounds:2,129,125,125
+auto play fx/auto play button_002
+bounds:129,256,125,125
+auto play fx/auto play button_003
+bounds:2,2,125,125
+auto play fx/auto play button_004
+bounds:129,129,125,125
+auto play fx/auto play button_005
+bounds:256,256,125,125
+auto play fx/auto play button_006
+bounds:129,2,125,125
+auto play fx/auto play button_007
+bounds:256,129,125,125
+auto play fx/auto play button_008
+bounds:383,256,125,125
+auto play fx/auto play button_009
+bounds:256,2,125,125
+auto play fx/auto play button_010
+bounds:383,129,125,125
+auto play fx/auto play button_011
+bounds:510,256,125,125
+auto play fx/auto play button_012
+bounds:383,2,125,125
+auto play fx/auto play button_013
+bounds:510,129,125,125
+auto play fx/auto play button_014
+bounds:637,256,125,125
+auto play fx/auto play button_015
+bounds:510,2,125,125
+auto play fx/auto play button_016
+bounds:637,129,125,125
+auto play fx/auto play button_017
+bounds:764,256,125,125
+auto play fx/auto play button_018
+bounds:637,2,125,125
+auto play fx/auto play button_019
+bounds:764,129,125,125
+auto play fx/auto play button_020
+bounds:891,256,125,125
+auto play fx/auto play button_021
+bounds:764,2,125,125
+auto play fx/auto play button_022
+bounds:891,129,125,125
+auto play fx/auto play button_023
+bounds:1018,256,125,125
+auto play fx/auto play button_024
+bounds:891,2,125,125
+auto play fx/auto play button_025
+bounds:1018,129,125,125
+auto play fx/auto play button_026
+bounds:1145,256,125,125
+auto play fx/auto play button_027
+bounds:1018,2,125,125
+auto play fx/auto play button_028
+bounds:1145,129,125,125
+auto play fx/auto play button_029
+bounds:1272,256,125,125
+auto play fx/auto play button_030
+bounds:1145,2,125,125
+auto play fx/auto play button_031
+bounds:1272,129,125,125
+auto play fx/auto play button_032
+bounds:1399,256,125,125
+auto play fx/auto play button_033
+bounds:1272,2,125,125
+auto play fx/auto play button_034
+bounds:1399,129,125,125
+auto play fx/auto play button_035
+bounds:1526,256,125,125
+auto play fx/auto play button_036
+bounds:1399,2,125,125
+auto play fx/auto play button_037
+bounds:1526,129,125,125
+auto play fx/auto play button_038
+bounds:1653,256,125,125
+auto play fx/auto play button_039
+bounds:1526,2,125,125
+auto play fx/auto play button_040
+bounds:1653,129,125,125
+auto play fx/auto play button_041
+bounds:1780,256,125,125
+auto play fx/auto play button_042
+bounds:1653,2,125,125
+auto play fx/auto play button_043
+bounds:1780,129,125,125
+auto play fx/auto play button_044
+bounds:1907,256,125,125
+auto play fx/auto play button_045
+bounds:1780,2,125,125
+auto play fx/auto play button_046
+bounds:1907,129,125,125
+auto play fx/auto play button_047
+bounds:2034,256,125,125
+auto play fx/auto play button_048
+bounds:1907,2,125,125
+auto play fx/auto play button_049
+bounds:2034,129,125,125
+auto play fx/auto play button_050
+bounds:2161,256,125,125
+auto play fx/auto play button_051
+bounds:2034,2,125,125
+auto play fx/auto play button_052
+bounds:2161,129,125,125
+auto play fx/auto play button_053
+bounds:2288,256,125,125
+auto play fx/auto play button_054
+bounds:2161,2,125,125
+auto play fx/auto play button_055
+bounds:2288,129,125,125
+auto play fx/auto play button_056
+bounds:2415,256,125,125
+auto play fx/auto play button_057
+bounds:2288,2,125,125
+auto play fx/auto play button_058
+bounds:2415,129,125,125
+auto play fx/auto play button_059
+bounds:2542,256,125,125
+auto play fx/auto play button_060
+bounds:2415,2,125,125
+auto play fx/auto play button_061
+bounds:2542,129,125,125
+auto play fx/auto play button_062
+bounds:2669,256,125,125
+auto play fx/auto play button_063
+bounds:2542,2,125,125
+auto play fx/auto play button_064
+bounds:2669,129,125,125
+auto play fx/auto play button_065
+bounds:2796,256,125,125
+auto play fx/auto play button_066
+bounds:2669,2,125,125
+auto play fx/auto play button_067
+bounds:2796,129,125,125
+auto play fx/auto play button_068
+bounds:2923,256,125,125
+auto play fx/auto play button_069
+bounds:2796,2,125,125
+auto play fx/auto play button_070
+bounds:2923,129,125,125
+auto play fx/auto play button_071
+bounds:3050,256,125,125
+auto play fx/auto play button_072
+bounds:2923,2,125,125
+auto play fx/auto play button_073
+bounds:3050,129,125,125
+auto play fx/auto play button_074
+bounds:3177,256,125,125
+auto play fx/auto play button_075
+bounds:3050,2,125,125
+auto play fx/auto play button_076
+bounds:3177,129,125,125
+auto play fx/auto play button_077
+bounds:3304,256,125,125
+auto play fx/auto play button_078
+bounds:3177,2,125,125
+auto play fx/auto play button_079
+bounds:3304,129,125,125
+auto play fx/auto play button_080
+bounds:3431,256,125,125
+auto play fx/auto play button_081
+bounds:3304,2,125,125

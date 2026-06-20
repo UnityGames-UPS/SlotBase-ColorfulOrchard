@@ -21,6 +21,8 @@ public class BonusGame : MonoBehaviour
     private SlotBehaviour slotmanager;
     [SerializeField]
     private Button Lever_Button;
+    [SerializeField]
+    private SpineAnimController Lever_Anim;
 
     private void Start()
     {
@@ -46,6 +48,8 @@ public class BonusGame : MonoBehaviour
     {
         Debug.Log("hit the lever");
         Lever_Button.interactable = false;
+        Lever_Anim.Stop();
+        Lever_Anim.Play(false);
         socketManager.AccumulateResult(0);
         StartCoroutine(GameProcedure());
         spinCount--;

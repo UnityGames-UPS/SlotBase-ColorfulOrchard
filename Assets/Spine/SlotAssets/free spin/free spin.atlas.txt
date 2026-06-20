@@ -1,0 +1,354 @@
+free spin.png
+size:3980,1248
+filter:Linear,Linear
+pma:true
+free
+bounds:1183,994,588,252
+offsets:1,1,591,254
+freespinboard
+bounds:2,364,1000,409
+offsets:1,1,1002,411
+fx 1/free spin fx_00039
+bounds:1004,389,384,64
+rotate:90
+fx 1/free spin fx_00126
+bounds:1004,389,384,64
+rotate:90
+fx 1/free spin fx_00040
+bounds:1183,928,384,64
+fx 1/free spin fx_00041
+bounds:259,298,384,64
+fx 1/free spin fx_00042
+bounds:2015,1182,384,64
+fx 1/free spin fx_00043
+bounds:1070,389,384,64
+rotate:90
+fx 1/free spin fx_00044
+bounds:1183,862,384,64
+fx 1/free spin fx_00045
+bounds:259,232,384,64
+fx 1/free spin fx_00046
+bounds:2015,1116,384,64
+fx 1/free spin fx_00047
+bounds:2401,1182,384,64
+fx 1/free spin fx_00048
+bounds:1183,796,384,64
+fx 1/free spin fx_00049
+bounds:259,166,384,64
+fx 1/free spin fx_00050
+bounds:2015,1050,384,64
+fx 1/free spin fx_00051
+bounds:2401,1116,384,64
+fx 1/free spin fx_00052
+bounds:2787,1182,384,64
+fx 1/free spin fx_00053
+bounds:2401,1050,384,64
+fx 1/free spin fx_00054
+bounds:2787,1116,384,64
+fx 1/free spin fx_00055
+bounds:3173,1182,384,64
+fx 1/free spin fx_00056
+bounds:2787,1050,384,64
+fx 1/free spin fx_00057
+bounds:3173,1116,384,64
+fx 1/free spin fx_00058
+bounds:3559,1182,384,64
+fx 1/free spin fx_00059
+bounds:3173,1050,384,64
+fx 1/free spin fx_00060
+bounds:3559,1116,384,64
+fx 1/free spin fx_00061
+bounds:3559,1050,384,64
+fx 1/free spin fx_00062
+bounds:259,100,384,64
+fx 1/free spin fx_00063
+bounds:1136,389,384,64
+rotate:90
+fx 1/free spin fx_00064
+bounds:1202,410,384,64
+rotate:90
+fx 1/free spin fx_00065
+bounds:1268,410,384,64
+rotate:90
+fx 1/free spin fx_00066
+bounds:1334,410,384,64
+rotate:90
+fx 1/free spin fx_00067
+bounds:1400,410,384,64
+rotate:90
+fx 1/free spin fx_00068
+bounds:1466,410,384,64
+rotate:90
+fx 1/free spin fx_00069
+bounds:2015,984,384,64
+fx 1/free spin fx_00070
+bounds:2401,984,384,64
+fx 1/free spin fx_00071
+bounds:2787,984,384,64
+fx 1/free spin fx_00072
+bounds:3173,984,384,64
+fx 1/free spin fx_00073
+bounds:3559,984,384,64
+fx 1/free spin fx_00074
+bounds:645,298,384,64
+fx 1/free spin fx_00075
+bounds:645,232,384,64
+fx 1/free spin fx_00076
+bounds:645,166,384,64
+fx 1/free spin fx_00077
+bounds:645,100,384,64
+fx 1/free spin fx_00078
+bounds:1532,410,384,64
+rotate:90
+fx 1/free spin fx_00079
+bounds:1202,344,384,64
+fx 1/free spin fx_00080
+bounds:1031,3,384,64
+rotate:90
+fx 1/free spin fx_00081
+bounds:1097,3,384,64
+rotate:90
+fx 1/free spin fx_00082
+bounds:1163,278,384,64
+fx 1/free spin fx_00083
+bounds:1163,212,384,64
+fx 1/free spin fx_00084
+bounds:1163,146,384,64
+fx 1/free spin fx_00085
+bounds:1163,80,384,64
+fx 1/free spin fx_00086
+bounds:1163,14,384,64
+fx 1/free spin fx_00087
+bounds:1569,928,384,64
+fx 1/free spin fx_00088
+bounds:1569,862,384,64
+fx 1/free spin fx_00089
+bounds:1569,796,384,64
+fx 1/free spin fx_00090
+bounds:1598,410,384,64
+rotate:90
+fx 1/free spin fx_00091
+bounds:1664,410,384,64
+rotate:90
+fx 1/free spin fx_00092
+bounds:1730,410,384,64
+rotate:90
+fx 1/free spin fx_00093
+bounds:1796,410,384,64
+rotate:90
+fx 1/free spin fx_00094
+bounds:1862,410,384,64
+rotate:90
+fx 1/free spin fx_00095
+bounds:1928,410,384,64
+rotate:90
+fx 1/free spin fx_00096
+bounds:1588,344,384,64
+fx 1/free spin fx_00097
+bounds:1549,278,384,64
+fx 1/free spin fx_00098
+bounds:1549,212,384,64
+fx 1/free spin fx_00099
+bounds:1549,146,384,64
+fx 1/free spin fx_00100
+bounds:1549,80,384,64
+fx 1/free spin fx_00101
+bounds:1549,14,384,64
+fx 1/free spin fx_00102
+bounds:1955,918,384,64
+fx 1/free spin fx_00103
+bounds:1955,852,384,64
+fx 1/free spin fx_00104
+bounds:2341,918,384,64
+fx 1/free spin fx_00105
+bounds:1994,410,384,64
+rotate:90
+fx 1/free spin fx_00106
+bounds:2341,852,384,64
+fx 1/free spin fx_00107
+bounds:2727,918,384,64
+fx 1/free spin fx_00108
+bounds:2060,410,384,64
+rotate:90
+fx 1/free spin fx_00109
+bounds:2727,852,384,64
+fx 1/free spin fx_00110
+bounds:3113,918,384,64
+fx 1/free spin fx_00111
+bounds:2126,410,384,64
+rotate:90
+fx 1/free spin fx_00112
+bounds:3113,852,384,64
+fx 1/free spin fx_00113
+bounds:3499,918,384,64
+fx 1/free spin fx_00114
+bounds:2192,410,384,64
+rotate:90
+fx 1/free spin fx_00115
+bounds:3499,852,384,64
+fx 1/free spin fx_00116
+bounds:2258,410,384,64
+rotate:90
+fx 1/free spin fx_00117
+bounds:2341,786,384,64
+fx 1/free spin fx_00118
+bounds:2727,786,384,64
+fx 1/free spin fx_00119
+bounds:3113,786,384,64
+fx 1/free spin fx_00120
+bounds:3499,786,384,64
+fx 1/free spin fx_00121
+bounds:2324,720,384,64
+fx 1/free spin fx_00122
+bounds:2324,654,384,64
+fx 1/free spin fx_00123
+bounds:2710,720,384,64
+fx 1/free spin fx_00124
+bounds:2324,588,384,64
+fx 1/free spin fx_00125
+bounds:2710,654,384,64
+fx 2/free spin fx 2_00065
+bounds:1955,796,384,54
+fx 2/free spin fx 2_00127
+bounds:1955,796,384,54
+fx 2/free spin fx 2_00066
+bounds:3096,730,384,54
+fx 2/free spin fx 2_00067
+bounds:2324,532,384,54
+fx 2/free spin fx 2_00068
+bounds:2710,598,384,54
+fx 2/free spin fx 2_00069
+bounds:3096,674,384,54
+fx 2/free spin fx 2_00070
+bounds:3482,730,384,54
+fx 2/free spin fx 2_00071
+bounds:2324,476,384,54
+fx 2/free spin fx 2_00072
+bounds:2710,542,384,54
+fx 2/free spin fx 2_00073
+bounds:3096,618,384,54
+fx 2/free spin fx 2_00074
+bounds:3482,674,384,54
+fx 2/free spin fx 2_00075
+bounds:2324,420,384,54
+fx 2/free spin fx 2_00076
+bounds:2710,486,384,54
+fx 2/free spin fx 2_00077
+bounds:3096,562,384,54
+fx 2/free spin fx 2_00078
+bounds:3482,618,384,54
+fx 2/free spin fx 2_00079
+bounds:2710,430,384,54
+fx 2/free spin fx 2_00080
+bounds:3096,506,384,54
+fx 2/free spin fx 2_00081
+bounds:3482,562,384,54
+fx 2/free spin fx 2_00082
+bounds:3096,450,384,54
+fx 2/free spin fx 2_00083
+bounds:3482,506,384,54
+fx 2/free spin fx 2_00084
+bounds:3482,450,384,54
+fx 2/free spin fx 2_00085
+bounds:1974,354,384,54
+fx 2/free spin fx 2_00086
+bounds:3096,394,384,54
+fx 2/free spin fx 2_00087
+bounds:3482,394,384,54
+fx 2/free spin fx 2_00088
+bounds:2710,374,384,54
+fx 2/free spin fx 2_00089
+bounds:3096,338,384,54
+fx 2/free spin fx 2_00090
+bounds:3482,338,384,54
+fx 2/free spin fx 2_00091
+bounds:3868,400,384,54
+rotate:90
+fx 2/free spin fx 2_00092
+bounds:1974,298,384,54
+fx 2/free spin fx 2_00093
+bounds:1935,242,384,54
+fx 2/free spin fx 2_00094
+bounds:1935,186,384,54
+fx 2/free spin fx 2_00095
+bounds:1935,130,384,54
+fx 2/free spin fx 2_00096
+bounds:1935,74,384,54
+fx 2/free spin fx 2_00097
+bounds:1935,18,384,54
+fx 2/free spin fx 2_00098
+bounds:3924,598,384,54
+rotate:90
+fx 2/free spin fx 2_00099
+bounds:3924,212,384,54
+rotate:90
+fx 2/free spin fx 2_00100
+bounds:3868,14,384,54
+rotate:90
+fx 2/free spin fx 2_00101
+bounds:2,44,384,54
+fx 2/free spin fx 2_00102
+bounds:388,44,384,54
+fx 2/free spin fx 2_00103
+bounds:2360,34,384,54
+rotate:90
+fx 2/free spin fx 2_00104
+bounds:2416,34,384,54
+rotate:90
+fx 2/free spin fx 2_00105
+bounds:2472,34,384,54
+rotate:90
+fx 2/free spin fx 2_00106
+bounds:2528,34,384,54
+rotate:90
+fx 2/free spin fx 2_00107
+bounds:2584,34,384,54
+rotate:90
+fx 2/free spin fx 2_00108
+bounds:2640,34,384,54
+rotate:90
+fx 2/free spin fx 2_00109
+bounds:2696,318,384,54
+fx 2/free spin fx 2_00110
+bounds:2696,262,384,54
+fx 2/free spin fx 2_00111
+bounds:2696,206,384,54
+fx 2/free spin fx 2_00112
+bounds:2696,150,384,54
+fx 2/free spin fx 2_00113
+bounds:2696,94,384,54
+fx 2/free spin fx 2_00114
+bounds:2696,38,384,54
+fx 2/free spin fx 2_00115
+bounds:3082,282,384,54
+fx 2/free spin fx 2_00116
+bounds:3082,226,384,54
+fx 2/free spin fx 2_00117
+bounds:3468,282,384,54
+fx 2/free spin fx 2_00118
+bounds:3082,170,384,54
+fx 2/free spin fx 2_00119
+bounds:3468,226,384,54
+fx 2/free spin fx 2_00120
+bounds:3082,114,384,54
+fx 2/free spin fx 2_00121
+bounds:3468,170,384,54
+fx 2/free spin fx 2_00122
+bounds:3082,58,384,54
+fx 2/free spin fx 2_00123
+bounds:3468,114,384,54
+fx 2/free spin fx 2_00124
+bounds:3468,58,384,54
+fx 2/free spin fx 2_00125
+bounds:3082,2,384,54
+fx 2/free spin fx 2_00126
+bounds:3468,2,384,54
+spin
+bounds:2,775,1179,471
+offsets:1,1,1181,473
+win stars
+bounds:1773,1007,240,239
+offsets:12,12,264,263
+yellow glow
+bounds:2,107,255,255
+offsets:22,23,300,300

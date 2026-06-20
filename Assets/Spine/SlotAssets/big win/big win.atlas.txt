@@ -1,0 +1,324 @@
+big win.png
+size:3568,1035
+filter:Linear,Linear
+pma:true
+Big
+bounds:268,541,492,270
+offsets:55,45,548,364
+rotate:90
+Big win
+bounds:2,469,564,264
+offsets:3,52,568,364
+rotate:90
+coins/1
+bounds:1800,550,157,164
+offsets:21,20,200,200
+coins/2
+bounds:1484,546,156,165
+offsets:22,18,200,200
+coins/3
+bounds:1959,553,125,163
+offsets:38,19,200,200
+coins/4
+bounds:268,485,54,167
+offsets:73,16,200,200
+rotate:90
+coins/5
+bounds:708,515,26,166
+offsets:87,17,200,200
+rotate:90
+coins/6
+bounds:437,485,54,167
+offsets:73,16,200,200
+rotate:90
+coins/7
+bounds:1708,58,124,165
+offsets:38,17,200,200
+coins/8
+bounds:1642,547,156,165
+offsets:22,17,200,200
+coins/9
+bounds:1834,63,157,164
+offsets:22,18,200,200
+line
+bounds:259,3,74,4
+offsets:1,0,75,4
+sparkle
+bounds:606,491,50,50
+wave fx/whimsical_00000
+bounds:133,3,1,1
+wave fx/whimsical_00001
+bounds:133,3,1,1
+wave fx/whimsical_00002
+bounds:3474,795,92,82
+offsets:179,92,480,270
+wave fx/whimsical_00003
+bounds:3154,149,119,102
+offsets:179,93,480,270
+wave fx/whimsical_00004
+bounds:259,9,127,113
+offsets:178,85,480,270
+rotate:90
+wave fx/whimsical_00005
+bounds:133,6,130,124
+offsets:176,82,480,270
+rotate:90
+wave fx/whimsical_00006
+bounds:2,3,133,129
+offsets:175,80,480,270
+rotate:90
+wave fx/whimsical_00007
+bounds:1571,36,186,135
+offsets:147,79,480,270
+rotate:90
+wave fx/whimsical_00008
+bounds:1431,34,188,138
+offsets:145,78,480,270
+rotate:90
+wave fx/whimsical_00009
+bounds:1012,22,194,137
+offsets:137,79,480,270
+rotate:90
+wave fx/whimsical_00010
+bounds:1151,26,191,137
+offsets:138,80,480,270
+rotate:90
+wave fx/whimsical_00011
+bounds:1290,32,189,139
+offsets:138,79,480,270
+rotate:90
+wave fx/whimsical_00012
+bounds:2287,5,235,139
+offsets:139,80,480,270
+rotate:90
+wave fx/whimsical_00013
+bounds:2428,7,233,140
+offsets:140,80,480,270
+rotate:90
+wave fx/whimsical_00014
+bounds:3010,20,231,142
+offsets:140,78,480,270
+rotate:90
+wave fx/whimsical_00015
+bounds:1993,2,229,143
+offsets:141,77,480,270
+rotate:90
+wave fx/whimsical_00016
+bounds:2716,10,232,143
+offsets:141,77,480,270
+rotate:90
+wave fx/whimsical_00017
+bounds:2570,10,232,144
+offsets:141,76,480,270
+rotate:90
+wave fx/whimsical_00018
+bounds:2138,2,232,147
+offsets:141,74,480,270
+rotate:90
+wave fx/whimsical_00019
+bounds:2997,415,257,148
+offsets:116,73,480,270
+wave fx/whimsical_00020
+bounds:3278,102,274,151
+offsets:115,71,480,270
+wave fx/whimsical_00021
+bounds:3192,725,280,152
+offsets:114,70,480,270
+wave fx/whimsical_00022
+bounds:2997,253,279,154
+offsets:113,69,480,270
+wave fx/whimsical_00023
+bounds:3267,409,280,156
+offsets:110,68,480,270
+wave fx/whimsical_00024
+bounds:3267,567,285,156
+offsets:105,68,480,270
+wave fx/whimsical_00025
+bounds:2978,565,287,157
+offsets:104,68,480,270
+wave fx/whimsical_00026
+bounds:2685,561,291,158
+offsets:103,68,480,270
+wave fx/whimsical_00027
+bounds:2391,558,292,158
+offsets:102,68,480,270
+wave fx/whimsical_00028
+bounds:867,543,293,160
+offsets:101,67,480,270
+wave fx/whimsical_00029
+bounds:2086,558,303,158
+offsets:91,69,480,270
+wave fx/whimsical_00030
+bounds:2413,721,312,157
+offsets:85,70,480,270
+rotate:90
+wave fx/whimsical_00031
+bounds:1736,229,316,156
+offsets:86,71,480,270
+rotate:90
+wave fx/whimsical_00032
+bounds:2257,718,315,154
+offsets:86,72,480,270
+rotate:90
+wave fx/whimsical_00033
+bounds:2369,242,314,155
+offsets:87,71,480,270
+rotate:90
+wave fx/whimsical_00034
+bounds:805,189,324,155
+offsets:81,71,480,270
+rotate:90
+wave fx/whimsical_00035
+bounds:962,218,323,155
+offsets:82,71,480,270
+rotate:90
+wave fx/whimsical_00036
+bounds:1119,219,322,156
+offsets:83,71,480,270
+rotate:90
+wave fx/whimsical_00037
+bounds:1319,713,320,156
+offsets:84,70,480,270
+rotate:90
+wave fx/whimsical_00038
+bounds:1428,224,319,157
+offsets:85,69,480,270
+rotate:90
+wave fx/whimsical_00039
+bounds:1781,716,317,157
+offsets:86,68,480,270
+rotate:90
+wave fx/whimsical_00040
+bounds:1940,718,315,157
+offsets:87,67,480,270
+rotate:90
+wave fx/whimsical_00041
+bounds:696,2,314,158
+offsets:88,66,480,270
+wave fx/whimsical_00042
+bounds:2572,721,312,157
+offsets:89,66,480,270
+rotate:90
+wave fx/whimsical_00043
+bounds:2053,236,315,156
+offsets:89,67,480,270
+rotate:90
+wave fx/whimsical_00044
+bounds:2211,242,314,156
+offsets:90,67,480,270
+rotate:90
+wave fx/whimsical_00045
+bounds:2526,244,312,156
+offsets:91,68,480,270
+rotate:90
+wave fx/whimsical_00046
+bounds:2684,244,312,154
+offsets:92,70,480,270
+rotate:90
+wave fx/whimsical_00047
+bounds:2731,722,311,151
+offsets:93,73,480,270
+rotate:90
+wave fx/whimsical_00048
+bounds:2884,724,309,149
+offsets:95,75,480,270
+rotate:90
+wave fx/whimsical_00049
+bounds:1587,225,319,147
+offsets:84,77,480,270
+rotate:90
+wave fx/whimsical_00050
+bounds:1630,714,319,149
+offsets:84,76,480,270
+rotate:90
+wave fx/whimsical_00051
+bounds:1277,223,320,149
+offsets:83,76,480,270
+rotate:90
+wave fx/whimsical_00052
+bounds:374,2,320,150
+offsets:83,75,480,270
+wave fx/whimsical_00053
+bounds:1477,713,320,151
+offsets:83,75,480,270
+rotate:90
+wave fx/whimsical_00054
+bounds:1166,712,321,151
+offsets:82,74,480,270
+rotate:90
+wave fx/whimsical_00055
+bounds:1011,706,327,153
+offsets:77,72,480,270
+rotate:90
+wave fx/whimsical_00056
+bounds:855,705,328,154
+offsets:77,71,480,270
+rotate:90
+wave fx/whimsical_00057
+bounds:698,705,328,155
+offsets:77,70,480,270
+rotate:90
+wave fx/whimsical_00058
+bounds:540,705,328,156
+offsets:77,69,480,270
+rotate:90
+wave fx/whimsical_00059
+bounds:324,154,329,158
+offsets:77,68,480,270
+rotate:90
+wave fx/whimsical_00060
+bounds:2,138,329,159
+offsets:78,67,480,270
+rotate:90
+wave fx/whimsical_00061
+bounds:163,138,329,159
+offsets:78,67,480,270
+rotate:90
+wave fx/whimsical_00062
+bounds:484,154,329,158
+offsets:78,68,480,270
+rotate:90
+wave fx/whimsical_00063
+bounds:644,162,327,159
+offsets:79,68,480,270
+rotate:90
+wave fx/whimsical_00064
+bounds:540,543,325,160
+offsets:79,69,480,270
+wave fx/whimsical_00065
+bounds:1162,545,320,159
+offsets:80,70,480,270
+wave fx/whimsical_00066
+bounds:1894,233,315,157
+offsets:81,71,480,270
+rotate:90
+wave fx/whimsical_00067
+bounds:2099,718,315,156
+offsets:76,72,480,270
+rotate:90
+wave fx/whimsical_00068
+bounds:3035,728,305,155
+offsets:78,73,480,270
+rotate:90
+wave fx/whimsical_00069
+bounds:2840,253,306,155
+offsets:81,73,480,270
+rotate:90
+wave fx/whimsical_00070
+bounds:3267,879,293,154
+offsets:87,73,480,270
+wave fx/whimsical_00071
+bounds:3278,255,275,152
+offsets:95,73,480,270
+wave fx/whimsical_00072
+bounds:2861,2,249,147
+offsets:104,73,480,270
+rotate:90
+wave fx/whimsical_00073
+bounds:658,495,46,27
+offsets:111,73,480,270
+rotate:90
+wave fx/whimsical_00074
+bounds:687,509,32,19
+offsets:119,74,480,270
+rotate:90

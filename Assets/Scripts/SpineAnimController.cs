@@ -10,7 +10,7 @@ public class SpineAnimController : MonoBehaviour
     bool isPlaying;
 
 
-    void Start()
+    void Awake()
     {
         skeletonGraphic = GetComponent<SkeletonGraphic>();
     }

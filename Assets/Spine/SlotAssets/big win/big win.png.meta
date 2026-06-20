@@ -1,0 +1,2522 @@
+fileFormatVersion: 2
+guid: 7089f6098cde846c887f1a84654c6b18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -238013755211298692
+    second: big win_0
+  - first:
+      213: -4824395491601457935
+    second: big win_1
+  - first:
+      213: 6742285626685858285
+    second: big win_2
+  - first:
+      213: -8134468151270383029
+    second: big win_3
+  - first:
+      213: 3218500448887755805
+    second: big win_4
+  - first:
+      213: -4123402655018529409
+    second: big win_5
+  - first:
+      213: 8420557055943596692
+    second: big win_6
+  - first:
+      213: -8356655958844714340
+    second: big win_7
+  - first:
+      213: -2842583267279513768
+    second: big win_8
+  - first:
+      213: -4827558959754300591
+    second: big win_9
+  - first:
+      213: -3099325471481279596
+    second: big win_10
+  - first:
+      213: 885142926353107582
+    second: big win_11
+  - first:
+      213: -8443397351709743406
+    second: big win_12
+  - first:
+      213: -171560354974008540
+    second: big win_13
+  - first:
+      213: 3700414114372938721
+    second: big win_14
+  - first:
+      213: -573887359991449814
+    second: big win_15
+  - first:
+      213: 5603881570485741464
+    second: big win_16
+  - first:
+      213: -490900235501940604
+    second: big win_17
+  - first:
+      213: 4593852944032928048
+    second: big win_18
+  - first:
+      213: -7033895213661633120
+    second: big win_19
+  - first:
+      213: -7326118365295797188
+    second: big win_20
+  - first:
+      213: 4257763949547701969
+    second: big win_21
+  - first:
+      213: 2869835650876649975
+    second: big win_22
+  - first:
+      213: -1166835322338575490
+    second: big win_23
+  - first:
+      213: -8904680480959057829
+    second: big win_24
+  - first:
+      213: -8339335948061038467
+    second: big win_25
+  - first:
+      213: -824271594471340175
+    second: big win_26
+  - first:
+      213: -5258744033660427742
+    second: big win_27
+  - first:
+      213: -77852755965272151
+    second: big win_28
+  - first:
+      213: -1211070916956925301
+    second: big win_29
+  - first:
+      213: 3197967274963412542
+    second: big win_30
+  - first:
+      213: -5240519521555723644
+    second: big win_31
+  - first:
+      213: -8334452120807631825
+    second: big win_32
+  - first:
+      213: -2531269774971742892
+    second: big win_33
+  - first:
+      213: -7812570903675569067
+    second: big win_34
+  - first:
+      213: -1059995106683343206
+    second: big win_35
+  - first:
+      213: 9032948523524409840
+    second: big win_36
+  - first:
+      213: -2147175475889954453
+    second: big win_37
+  - first:
+      213: -8893519730713392395
+    second: big win_38
+  - first:
+      213: -5577597332870045968
+    second: big win_39
+  - first:
+      213: 6384574850276430856
+    second: big win_40
+  - first:
+      213: 6498042354344557824
+    second: big win_41
+  - first:
+      213: 8754036373143920256
+    second: big win_42
+  - first:
+      213: -8500049152532200681
+    second: big win_43
+  - first:
+      213: -2505972902338425378
+    second: big win_44
+  - first:
+      213: -8345643200967362799
+    second: big win_45
+  - first:
+      213: -5239606839365725236
+    second: big win_46
+  - first:
+      213: -105013422658974357
+    second: big win_47
+  - first:
+      213: -1786976456630378985
+    second: big win_48
+  - first:
+      213: -3583392127693586975
+    second: big win_49
+  - first:
+      213: 8867213307724006857
+    second: big win_50
+  - first:
+      213: -7023608271829867998
+    second: big win_51
+  - first:
+      213: 3313580255192451578
+    second: big win_52
+  - first:
+      213: 5607436065990750877
+    second: big win_53
+  - first:
+      213: 5333281451097468178
+    second: big win_54
+  - first:
+      213: 444271130210089951
+    second: big win_55
+  - first:
+      213: -4665744819924731036
+    second: big win_56
+  - first:
+      213: -4648988545168821860
+    second: big win_57
+  - first:
+      213: 2679073087625815650
+    second: big win_58
+  - first:
+      213: -2535203588376410055
+    second: big win_59
+  - first:
+      213: -3290167585960413665
+    second: big win_60
+  - first:
+      213: -5120694285497405396
+    second: big win_61
+  - first:
+      213: 1096108618697045095
+    second: big win_62
+  - first:
+      213: -5492193322816907364
+    second: big win_63
+  - first:
+      213: 2686402110047798911
+    second: big win_64
+  - first:
+      213: 2421991116415806940
+    second: big win_65
+  - first:
+      213: -4975978949346924507
+    second: big win_66
+  - first:
+      213: -2426126659162206977
+    second: big win_67
+  - first:
+      213: -7420084396909715881
+    second: big win_68
+  - first:
+      213: -6936231545435229097
+    second: big win_69
+  - first:
+      213: -8868527757587640954
+    second: big win_70
+  - first:
+      213: 7984095010077600256
+    second: big win_71
+  - first:
+      213: 955072670177816407
+    second: big win_72
+  - first:
+      213: -70948087790259881
+    second: big win_73
+  - first:
+      213: 2926041316598657340
+    second: big win_74
+  - first:
+      213: -1793594531405796006
+    second: big win_75
+  - first:
+      213: -7934564715156331202
+    second: big win_76
+  - first:
+      213: -365635366708741735
+    second: big win_77
+  - first:
+      213: 6035108670423788347
+    second: big win_78
+  - first:
+      213: 3535829312263827566
+    second: big win_79
+  - first:
+      213: 5307439589381931378
+    second: big win_80
+  - first:
+      213: -1126946488380855081
+    second: big win_81
+  - first:
+      213: 197162846869992199
+    second: big win_82
+  - first:
+      213: 7974887122936178993
+    second: big win_83
+  - first:
+      213: 1718099370321095862
+    second: big win_84
+  - first:
+      213: -277299426498629055
+    second: big win_85
+  - first:
+      213: -8597260778698242785
+    second: big win_86
+  - first:
+      213: -7821177051085429140
+    second: big win_87
+  - first:
+      213: 197816736396744901
+    second: big win_88
+  - first:
+      213: 6854815517965626254
+    second: big win_89
+  - first:
+      213: -7254428446120508574
+    second: big win_90
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: big win_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 898
+        width: 131
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7849fc20c762bcf0800000000000000
+      internalID: -238013755211298692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 898
+        width: 126
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc59137cdd4c0db0800000000000000
+      internalID: -4824395491601457935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1027
+        width: 76
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de125d82e09619d50800000000000000
+      internalID: 6742285626685858285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 898
+        width: 115
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42ecce80509c1f80800000000000000
+      internalID: -8134468151270383029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_4
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 882
+        width: 322
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14d36d1b196aac20800000000000000
+      internalID: 3218500448887755805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 874
+        width: 316
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7dc7b9c12bb6c6c0800000000000000
+      internalID: -4123402655018529409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_6
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 803
+        width: 145
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a5d624704dbd470800000000000000
+      internalID: 8420557055943596692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_7
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 800
+        width: 149
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92d8ee4ea1370c80800000000000000
+      internalID: -8356655958844714340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_8
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 794
+        width: 141
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857d55d349d1d88d0800000000000000
+      internalID: -2842583267279513768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_9
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 794
+        width: 142
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153379f14b0110db0800000000000000
+      internalID: -4827558959754300591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_10
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 945
+        width: 31
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bc90597ebfcf4d0800000000000000
+      internalID: -3099325471481279596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_11
+      rect:
+        serializedVersion: 2
+        x: 2973
+        y: 911
+        width: 36
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a0ab44dc8a84c00800000000000000
+      internalID: 885142926353107582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 567
+        width: 161
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6edd9f7d603da80800000000000000
+      internalID: -8443397351709743406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_13
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 567
+        width: 161
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bfb3024ce7e9df0800000000000000
+      internalID: -171560354974008540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_14
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 551
+        width: 160
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb6a0908038a5330800000000000000
+      internalID: 3700414114372938721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_15
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 551
+        width: 160
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a277f969c742908f0800000000000000
+      internalID: -573887359991449814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_16
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 545
+        width: 161
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8972924099cf4cd40800000000000000
+      internalID: 5603881570485741464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_17
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 521
+        width: 157
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48050c236d8ff29f0800000000000000
+      internalID: -490900235501940604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_18
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 493
+        width: 157
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031177fc9e4a0cf30800000000000000
+      internalID: 4593852944032928048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_19
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 818
+        width: 139
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5c0620295926e90800000000000000
+      internalID: -7033895213661633120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_20
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 817
+        width: 139
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c14168926645a90800000000000000
+      internalID: -7326118365295797188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_21
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 813
+        width: 141
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d64146e0cd961b30800000000000000
+      internalID: 4257763949547701969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_22
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 812
+        width: 140
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f13146c154b3d720800000000000000
+      internalID: 2869835650876649975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_23
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 812
+        width: 137
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b71acd4719ecfe0800000000000000
+      internalID: -1166835322338575490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_24
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 811
+        width: 126
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50b41618483c6480800000000000000
+      internalID: -8904680480959057829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_25
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 807
+        width: 159
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d782d21932ab44c80800000000000000
+      internalID: -8339335948061038467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_26
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 792
+        width: 146
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177471d1a599f84f0800000000000000
+      internalID: -824271594471340175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_27
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 792
+        width: 145
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22227f4d9203507b0800000000000000
+      internalID: -5258744033660427742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_28
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 783
+        width: 47
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af97e7b4596beef0800000000000000
+      internalID: -77852755965272151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_29
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 783
+        width: 59
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82d9f4ea69613fe0800000000000000
+      internalID: -1211070916956925301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_30
+      rect:
+        serializedVersion: 2
+        x: 3009
+        y: 783
+        width: 144
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36a4830b46716c20800000000000000
+      internalID: 3197967274963412542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_31
+      rect:
+        serializedVersion: 2
+        x: 3153
+        y: 783
+        width: 121
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48acb27b24fe547b0800000000000000
+      internalID: -5240519521555723644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_32
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 781
+        width: 276
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2492c534f3165c80800000000000000
+      internalID: -8334452120807631825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_33
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 493
+        width: 158
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45550280d8f1fdcd0800000000000000
+      internalID: -2531269774971742892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_34
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 491
+        width: 151
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c7dd7e72c249390800000000000000
+      internalID: -7812570903675569067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_35
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 491
+        width: 159
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9eac7a01142a41f0800000000000000
+      internalID: -1059995106683343206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_36
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 490
+        width: 149
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9cf03d2da7b5d70800000000000000
+      internalID: 9032948523524409840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_37
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 489
+        width: 158
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b612629e743b332e0800000000000000
+      internalID: -2147175475889954453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_38
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 486
+        width: 159
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa86efbceed39480800000000000000
+      internalID: -8893519730713392395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_39
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 483
+        width: 158
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe5d12f6c46892b0800000000000000
+      internalID: -5577597332870045968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_40
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 478
+        width: 158
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8049e98dff09a9850800000000000000
+      internalID: 6384574850276430856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_41
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 478
+        width: 157
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d762ad71fad2a50800000000000000
+      internalID: 6498042354344557824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_42
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 478
+        width: 158
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e971453b59c7970800000000000000
+      internalID: 8754036373143920256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_43
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 478
+        width: 156
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71345f9b452c90a80800000000000000
+      internalID: -8500049152532200681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_44
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 475
+        width: 157
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd0d5b2ceef83dd0800000000000000
+      internalID: -2505972902338425378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_45
+      rect:
+        serializedVersion: 2
+        x: 2996
+        y: 627
+        width: 281
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117bf20d9b15e2c80800000000000000
+      internalID: -8345643200967362799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_46
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 711
+        width: 277
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc316e8175d2947b0800000000000000
+      internalID: -5239606839365725236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_47
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 627
+        width: 277
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d83c539daea8ef0800000000000000
+      internalID: -105013422658974357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 266
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e5f8861626337e0800000000000000
+      internalID: -1786976456630378985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_49
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 558
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed74e178db354ec0800000000000000
+      internalID: -3583392127693586975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_50
+      rect:
+        serializedVersion: 2
+        x: 2996
+        y: 471
+        width: 259
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5818ad58bae0b70800000000000000
+      internalID: 8867213307724006857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_51
+      rect:
+        serializedVersion: 2
+        x: 3266
+        y: 469
+        width: 282
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222e51c4d71278e90800000000000000
+      internalID: -7023608271829867998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_52
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 495
+        width: 169
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af98e7d9fa33cfd20800000000000000
+      internalID: 3313580255192451578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_53
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1
+        width: 272
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92b71e746d91dd40800000000000000
+      internalID: 5607436065990750877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_54
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 495
+        width: 169
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d28db093f930a40800000000000000
+      internalID: 5333281451097468178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_55
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 493
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb32243d3e5a2600800000000000000
+      internalID: 444271130210089951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_56
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 493
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b74c37ec1ff3fb0800000000000000
+      internalID: -4665744819924731036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_57
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 493
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c913a50bc897b7fb0800000000000000
+      internalID: -4648988545168821860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_58
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 493
+        width: 168
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266ee3367cafd2520800000000000000
+      internalID: 2679073087625815650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_59
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 331
+        width: 327
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9384789b4c521dcd0800000000000000
+      internalID: -2535203588376410055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_60
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1
+        width: 158
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16335b330af652d0800000000000000
+      internalID: -3290167585960413665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_61
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1
+        width: 157
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20fd8d8da3afe8b0800000000000000
+      internalID: -5120694285497405396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_62
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1
+        width: 156
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7647ea43bf8263f00800000000000000
+      internalID: 1096108618697045095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_63
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 331
+        width: 295
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97d9b3954fc7c3b0800000000000000
+      internalID: -5492193322816907364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_64
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 330
+        width: 322
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7642456c74084520800000000000000
+      internalID: 2686402110047798911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_65
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 323
+        width: 158
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddad1f8614ac9120800000000000000
+      internalID: 2421991116415806940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_66
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 322
+        width: 158
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528ea5a6285c1fab0800000000000000
+      internalID: -4975978949346924507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_67
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 320
+        width: 159
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc088c58aaa45ed0800000000000000
+      internalID: -2426126659162206977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_68
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 318
+        width: 127
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e17c6ed80960990800000000000000
+      internalID: -7420084396909715881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_69
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 318
+        width: 305
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754797eb82e8dbf90800000000000000
+      internalID: -6936231545435229097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_70
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 318
+        width: 294
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d0c40fdf8ace480800000000000000
+      internalID: -8868527757587640954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_71
+      rect:
+        serializedVersion: 2
+        x: 2684
+        y: 315
+        width: 293
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ae4a03c143dce60800000000000000
+      internalID: 7984095010077600256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_72
+      rect:
+        serializedVersion: 2
+        x: 2977
+        y: 312
+        width: 289
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75fe1a88889114d00800000000000000
+      internalID: 955072670177816407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_73
+      rect:
+        serializedVersion: 2
+        x: 3266
+        y: 311
+        width: 287
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751b4cd0711f30ff0800000000000000
+      internalID: -70948087790259881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_74
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1
+        width: 155
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31baf913136b9820800000000000000
+      internalID: 2926041316598657340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_75
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1
+        width: 153
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d697cc64fdb17e0800000000000000
+      internalID: -1793594531405796006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_76
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 1
+        width: 158
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3522c14e63c2e190800000000000000
+      internalID: -7934564715156331202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_77
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1
+        width: 153
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999710a32900deaf0800000000000000
+      internalID: -365635366708741735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_78
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1
+        width: 151
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b6d714c5301c350800000000000000
+      internalID: 6035108670423788347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_79
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1
+        width: 159
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6036ef960ac11130800000000000000
+      internalID: 3535829312263827566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_80
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 1
+        width: 159
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27184ffbf20d7a940800000000000000
+      internalID: 5307439589381931378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_81
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 1
+        width: 158
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc6f2fb3284c50f0800000000000000
+      internalID: -1126946488380855081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_82
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 1
+        width: 156
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703379a80967cb200800000000000000
+      internalID: 197162846869992199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_83
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 1
+        width: 159
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139a276e59d7cae60800000000000000
+      internalID: 7974887122936178993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_84
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 1
+        width: 159
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcafc0464ae7d710800000000000000
+      internalID: 1718099370321095862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_85
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 1
+        width: 153
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142312b04a5d62cf0800000000000000
+      internalID: -277299426498629055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_86
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 1
+        width: 151
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f150b4c3fd460b880800000000000000
+      internalID: -8597260778698242785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_87
+      rect:
+        serializedVersion: 2
+        x: 3034
+        y: 1
+        width: 157
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66ad9019e8957390800000000000000
+      internalID: -7821177051085429140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_88
+      rect:
+        serializedVersion: 2
+        x: 3191
+        y: 157
+        width: 282
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c81e8f0649ceb200800000000000000
+      internalID: 197816736396744901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_89
+      rect:
+        serializedVersion: 2
+        x: 3266
+        y: 1
+        width: 295
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b2d2d2562312f50800000000000000
+      internalID: 6854815517965626254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big win_90
+      rect:
+        serializedVersion: 2
+        x: 3473
+        y: 157
+        width: 94
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2638f7c83c7135b90800000000000000
+      internalID: -7254428446120508574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      big win_0: -238013755211298692
+      big win_1: -4824395491601457935
+      big win_10: -3099325471481279596
+      big win_11: 885142926353107582
+      big win_12: -8443397351709743406
+      big win_13: -171560354974008540
+      big win_14: 3700414114372938721
+      big win_15: -573887359991449814
+      big win_16: 5603881570485741464
+      big win_17: -490900235501940604
+      big win_18: 4593852944032928048
+      big win_19: -7033895213661633120
+      big win_2: 6742285626685858285
+      big win_20: -7326118365295797188
+      big win_21: 4257763949547701969
+      big win_22: 2869835650876649975
+      big win_23: -1166835322338575490
+      big win_24: -8904680480959057829
+      big win_25: -8339335948061038467
+      big win_26: -824271594471340175
+      big win_27: -5258744033660427742
+      big win_28: -77852755965272151
+      big win_29: -1211070916956925301
+      big win_3: -8134468151270383029
+      big win_30: 3197967274963412542
+      big win_31: -5240519521555723644
+      big win_32: -8334452120807631825
+      big win_33: -2531269774971742892
+      big win_34: -7812570903675569067
+      big win_35: -1059995106683343206
+      big win_36: 9032948523524409840
+      big win_37: -2147175475889954453
+      big win_38: -8893519730713392395
+      big win_39: -5577597332870045968
+      big win_4: 3218500448887755805
+      big win_40: 6384574850276430856
+      big win_41: 6498042354344557824
+      big win_42: 8754036373143920256
+      big win_43: -8500049152532200681
+      big win_44: -2505972902338425378
+      big win_45: -8345643200967362799
+      big win_46: -5239606839365725236
+      big win_47: -105013422658974357
+      big win_48: -1786976456630378985
+      big win_49: -3583392127693586975
+      big win_5: -4123402655018529409
+      big win_50: 8867213307724006857
+      big win_51: -7023608271829867998
+      big win_52: 3313580255192451578
+      big win_53: 5607436065990750877
+      big win_54: 5333281451097468178
+      big win_55: 444271130210089951
+      big win_56: -4665744819924731036
+      big win_57: -4648988545168821860
+      big win_58: 2679073087625815650
+      big win_59: -2535203588376410055
+      big win_6: 8420557055943596692
+      big win_60: -3290167585960413665
+      big win_61: -5120694285497405396
+      big win_62: 1096108618697045095
+      big win_63: -5492193322816907364
+      big win_64: 2686402110047798911
+      big win_65: 2421991116415806940
+      big win_66: -4975978949346924507
+      big win_67: -2426126659162206977
+      big win_68: -7420084396909715881
+      big win_69: -6936231545435229097
+      big win_7: -8356655958844714340
+      big win_70: -8868527757587640954
+      big win_71: 7984095010077600256
+      big win_72: 955072670177816407
+      big win_73: -70948087790259881
+      big win_74: 2926041316598657340
+      big win_75: -1793594531405796006
+      big win_76: -7934564715156331202
+      big win_77: -365635366708741735
+      big win_78: 6035108670423788347
+      big win_79: 3535829312263827566
+      big win_8: -2842583267279513768
+      big win_80: 5307439589381931378
+      big win_81: -1126946488380855081
+      big win_82: 197162846869992199
+      big win_83: 7974887122936178993
+      big win_84: 1718099370321095862
+      big win_85: -277299426498629055
+      big win_86: -8597260778698242785
+      big win_87: -7821177051085429140
+      big win_88: 197816736396744901
+      big win_89: 6854815517965626254
+      big win_9: -4827558959754300591
+      big win_90: -7254428446120508574
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

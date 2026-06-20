@@ -1,0 +1,1742 @@
+fileFormatVersion: 2
+guid: 123904b86a1d742209e2e354626a645d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4573635155681758810
+    second: great win_0
+  - first:
+      213: -8348838484777909397
+    second: great win_1
+  - first:
+      213: 3504026871639169997
+    second: great win_2
+  - first:
+      213: 314517986839797595
+    second: great win_3
+  - first:
+      213: 6055389348003664072
+    second: great win_4
+  - first:
+      213: -4420223718228422716
+    second: great win_5
+  - first:
+      213: -8264631266360113177
+    second: great win_6
+  - first:
+      213: -691185401012263258
+    second: great win_7
+  - first:
+      213: 7683307251403198257
+    second: great win_8
+  - first:
+      213: 3913103666111725528
+    second: great win_9
+  - first:
+      213: 3263329456543049512
+    second: great win_10
+  - first:
+      213: 1300826200958771983
+    second: great win_11
+  - first:
+      213: -3215295577562184709
+    second: great win_12
+  - first:
+      213: 7745793453700134788
+    second: great win_13
+  - first:
+      213: -8247779304858007702
+    second: great win_14
+  - first:
+      213: 7579394310094334040
+    second: great win_15
+  - first:
+      213: -1561089301254000271
+    second: great win_16
+  - first:
+      213: -7606124203598275873
+    second: great win_17
+  - first:
+      213: 7645943035579803740
+    second: great win_18
+  - first:
+      213: 944692511350600510
+    second: great win_19
+  - first:
+      213: -6690733774547807790
+    second: great win_20
+  - first:
+      213: -7577047027720896027
+    second: great win_21
+  - first:
+      213: 5143682364128097281
+    second: great win_22
+  - first:
+      213: 7887288274374396549
+    second: great win_23
+  - first:
+      213: -526204341649739869
+    second: great win_24
+  - first:
+      213: -6755129393474041862
+    second: great win_25
+  - first:
+      213: 4141599372817090621
+    second: great win_26
+  - first:
+      213: 7603266941353344027
+    second: great win_27
+  - first:
+      213: 715671827093621788
+    second: great win_28
+  - first:
+      213: 4717881748604565483
+    second: great win_29
+  - first:
+      213: 2815171235009373918
+    second: great win_30
+  - first:
+      213: 7429965912252493841
+    second: great win_31
+  - first:
+      213: -4797065222323088424
+    second: great win_32
+  - first:
+      213: -6130672261300789038
+    second: great win_33
+  - first:
+      213: 8276572519069590370
+    second: great win_34
+  - first:
+      213: 908076998874420751
+    second: great win_35
+  - first:
+      213: 5354324473773368560
+    second: great win_36
+  - first:
+      213: -3412417661396478025
+    second: great win_37
+  - first:
+      213: -2031954116233895560
+    second: great win_38
+  - first:
+      213: -722259849688793140
+    second: great win_39
+  - first:
+      213: 4488326882476436447
+    second: great win_40
+  - first:
+      213: -3643911316022927787
+    second: great win_41
+  - first:
+      213: -555657262787964394
+    second: great win_42
+  - first:
+      213: -3707251222061505048
+    second: great win_43
+  - first:
+      213: 4789766530763970278
+    second: great win_44
+  - first:
+      213: 505660981137323373
+    second: great win_45
+  - first:
+      213: -2117361341678065127
+    second: great win_46
+  - first:
+      213: -4465751688589690116
+    second: great win_47
+  - first:
+      213: -1286801843549418721
+    second: great win_48
+  - first:
+      213: -8108276577390889682
+    second: great win_49
+  - first:
+      213: -7972338913740326490
+    second: great win_50
+  - first:
+      213: -6476771477436666768
+    second: great win_51
+  - first:
+      213: -6575468464635678274
+    second: great win_52
+  - first:
+      213: 8276592433663006827
+    second: great win_53
+  - first:
+      213: 9067093274347833355
+    second: great win_54
+  - first:
+      213: 1310775260315285660
+    second: great win_55
+  - first:
+      213: 6273180410675400554
+    second: great win_56
+  - first:
+      213: -3867360690368348914
+    second: great win_57
+  - first:
+      213: -5283298113306234597
+    second: great win_58
+  - first:
+      213: -149505003622829999
+    second: great win_59
+  - first:
+      213: -2850627965821667222
+    second: great win_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: great win_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 505
+        width: 76
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1b95dde0f2780c0800000000000000
+      internalID: -4573635155681758810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 248
+        width: 565
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63c3b3d1a7f22c80800000000000000
+      internalID: -8348838484777909397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_2
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 433
+        width: 231
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbd977efddc0a030800000000000000
+      internalID: 3504026871639169997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_3
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 433
+        width: 230
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f9e0151746d5400800000000000000
+      internalID: 314517986839797595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_4
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 426
+        width: 229
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c051787780190450800000000000000
+      internalID: 6055389348003664072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_5
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 428
+        width: 230
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf0d3792f538a2c0800000000000000
+      internalID: -4420223718228422716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_6
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 431
+        width: 230
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7c401b6a12e4d80800000000000000
+      internalID: -8264631266360113177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_7
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 347
+        width: 127
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a66ab23a8a6866f0800000000000000
+      internalID: -691185401012263258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_8
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 351
+        width: 167
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f021cbc3790aa60800000000000000
+      internalID: 7683307251403198257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_9
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 248
+        width: 95
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df3ed34d032e4630800000000000000
+      internalID: 3913103666111725528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_10
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 248
+        width: 94
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8272152d9dca94d20800000000000000
+      internalID: 3263329456543049512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_11
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 267
+        width: 159
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f032ba6a9867d0210800000000000000
+      internalID: 1300826200958771983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_12
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 267
+        width: 159
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3858325b9f063d0800000000000000
+      internalID: -3215295577562184709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_13
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 346
+        width: 231
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487b75f6b169e7b60800000000000000
+      internalID: 7745793453700134788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_14
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 431
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67ce1cbb600a8d80800000000000000
+      internalID: -8247779304858007702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_15
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 347
+        width: 167
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8582ac9b7fa6f2960800000000000000
+      internalID: 7579394310094334040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_16
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 404
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171b7103d85e55ae0800000000000000
+      internalID: -1561089301254000271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_17
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 404
+        width: 104
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda1607f55e917690800000000000000
+      internalID: -7606124203598275873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_18
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 417
+        width: 86
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c582b905ea8db1a60800000000000000
+      internalID: 7645943035579803740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_19
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 267
+        width: 167
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33360975d83c1d00800000000000000
+      internalID: 944692511350600510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_20
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 341
+        width: 231
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d19e51c41db523a0800000000000000
+      internalID: -6690733774547807790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_21
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 344
+        width: 231
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1444a8fdbe8d690800000000000000
+      internalID: -7577047027720896027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_22
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 401
+        width: 168
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104fb479bd7026740800000000000000
+      internalID: 5143682364128097281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_23
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 345
+        width: 169
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a803b95e6457d60800000000000000
+      internalID: 7887288274374396549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_24
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 348
+        width: 169
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afe2b070fb82b8f0800000000000000
+      internalID: -526204341649739869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_25
+      rect:
+        serializedVersion: 2
+        x: 2807
+        y: 270
+        width: 86
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af70e2a5b95f042a0800000000000000
+      internalID: -6755129393474041862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_26
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 256
+        width: 232
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d384ebabfaae97930800000000000000
+      internalID: 4141599372817090621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_27
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 262
+        width: 231
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c36d3dffa348960800000000000000
+      internalID: 7603266941353344027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_28
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 263
+        width: 231
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c8ba52cb39ee900800000000000000
+      internalID: 715671827093621788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_29
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 262
+        width: 230
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7bfd53478497140800000000000000
+      internalID: 4717881748604565483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_30
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 262
+        width: 230
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6a1a4a25f711720800000000000000
+      internalID: 2815171235009373918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_31
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 268
+        width: 206
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110321da1aa8c1760800000000000000
+      internalID: 7429965912252493841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_32
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 270
+        width: 185
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d35d03a8966d6db0800000000000000
+      internalID: -4797065222323088424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_33
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 182
+        width: 231
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d063de5f0a7beaa0800000000000000
+      internalID: -6130672261300789038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 784
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26327ecdada4cd270800000000000000
+      internalID: 8276572519069590370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_35
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 184
+        width: 234
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06dc9228332a9c00800000000000000
+      internalID: 908076998874420751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_36
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 91
+        width: 234
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4217f8db16e4a40800000000000000
+      internalID: 5354324473773368560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_37
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 179
+        width: 234
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7913b7738a4a0d0800000000000000
+      internalID: -3412417661396478025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_38
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 175
+        width: 234
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8716cfd3f7c0dc3e0800000000000000
+      internalID: -2031954116233895560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_39
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 178
+        width: 233
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfb5cf4e740af5f0800000000000000
+      internalID: -722259849688793140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_40
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 178
+        width: 233
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb28d9f48db94e30800000000000000
+      internalID: 4488326882476436447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_41
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 178
+        width: 233
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e5d6fd6f93e6dc0800000000000000
+      internalID: -3643911316022927787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_42
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 180
+        width: 233
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61258aad9a8e948f0800000000000000
+      internalID: -555657262787964394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_43
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 182
+        width: 232
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e524e7c7a23d8cc0800000000000000
+      internalID: -3707251222061505048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_44
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 91
+        width: 237
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6dd3f484ba87240800000000000000
+      internalID: 4789766530763970278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_45
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 89
+        width: 235
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d653775bbf7740700800000000000000
+      internalID: 505660981137323373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_46
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 89
+        width: 233
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a6228f31f9d92e0800000000000000
+      internalID: -2117361341678065127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_47
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 90
+        width: 233
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfab282ff767602c0800000000000000
+      internalID: -4465751688589690116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_48
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 92
+        width: 233
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b4be28a8c542ee0800000000000000
+      internalID: -1286801843549418721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_49
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 92
+        width: 232
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25feff896d997f80800000000000000
+      internalID: -8108276577390889682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_50
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 93
+        width: 232
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9fb794fff8c5190800000000000000
+      internalID: -7972338913740326490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_51
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 95
+        width: 231
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c610c18a2ed16a0800000000000000
+      internalID: -6476771477436666768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_52
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 1
+        width: 231
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb17b9d054e3fb4a0800000000000000
+      internalID: -6575468464635678274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_53
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1
+        width: 237
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b685b2797fc5cd270800000000000000
+      internalID: 8276592433663006827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_54
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1
+        width: 236
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0806d22b49c4dd70800000000000000
+      internalID: 9067093274347833355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_55
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1
+        width: 236
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98767b872fc03210800000000000000
+      internalID: 1310775260315285660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_56
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1
+        width: 235
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f0f36c850de0750800000000000000
+      internalID: 6273180410675400554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_57
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 1
+        width: 234
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0df84831ff545ac0800000000000000
+      internalID: -3867360690368348914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_58
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 1
+        width: 234
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11f3e9ab54fda6b0800000000000000
+      internalID: -5283298113306234597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_59
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 1
+        width: 233
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150fae6cdf9dcedf0800000000000000
+      internalID: -149505003622829999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: great win_60
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 1
+        width: 233
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68b766e7f88078d0800000000000000
+      internalID: -2850627965821667222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      great win_0: -4573635155681758810
+      great win_1: -8348838484777909397
+      great win_10: 3263329456543049512
+      great win_11: 1300826200958771983
+      great win_12: -3215295577562184709
+      great win_13: 7745793453700134788
+      great win_14: -8247779304858007702
+      great win_15: 7579394310094334040
+      great win_16: -1561089301254000271
+      great win_17: -7606124203598275873
+      great win_18: 7645943035579803740
+      great win_19: 944692511350600510
+      great win_2: 3504026871639169997
+      great win_20: -6690733774547807790
+      great win_21: -7577047027720896027
+      great win_22: 5143682364128097281
+      great win_23: 7887288274374396549
+      great win_24: -526204341649739869
+      great win_25: -6755129393474041862
+      great win_26: 4141599372817090621
+      great win_27: 7603266941353344027
+      great win_28: 715671827093621788
+      great win_29: 4717881748604565483
+      great win_3: 314517986839797595
+      great win_30: 2815171235009373918
+      great win_31: 7429965912252493841
+      great win_32: -4797065222323088424
+      great win_33: -6130672261300789038
+      great win_34: 8276572519069590370
+      great win_35: 908076998874420751
+      great win_36: 5354324473773368560
+      great win_37: -3412417661396478025
+      great win_38: -2031954116233895560
+      great win_39: -722259849688793140
+      great win_4: 6055389348003664072
+      great win_40: 4488326882476436447
+      great win_41: -3643911316022927787
+      great win_42: -555657262787964394
+      great win_43: -3707251222061505048
+      great win_44: 4789766530763970278
+      great win_45: 505660981137323373
+      great win_46: -2117361341678065127
+      great win_47: -4465751688589690116
+      great win_48: -1286801843549418721
+      great win_49: -8108276577390889682
+      great win_5: -4420223718228422716
+      great win_50: -7972338913740326490
+      great win_51: -6476771477436666768
+      great win_52: -6575468464635678274
+      great win_53: 8276592433663006827
+      great win_54: 9067093274347833355
+      great win_55: 1310775260315285660
+      great win_56: 6273180410675400554
+      great win_57: -3867360690368348914
+      great win_58: -5283298113306234597
+      great win_59: -149505003622829999
+      great win_6: -8264631266360113177
+      great win_60: -2850627965821667222
+      great win_7: -691185401012263258
+      great win_8: 7683307251403198257
+      great win_9: 3913103666111725528
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

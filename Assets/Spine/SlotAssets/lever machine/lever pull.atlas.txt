@@ -1,0 +1,12 @@
+lever pull.png
+size:755,219
+filter:Linear,Linear
+pma:true
+lever1
+bounds:2,2,215,480
+offsets:12,0,242,480
+rotate:90
+leverbox1
+bounds:484,36,181,269
+offsets:31,0,222,269
+rotate:90

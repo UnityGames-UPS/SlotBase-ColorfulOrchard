@@ -1,0 +1,276 @@
+bonus game.png
+size:1817,951
+filter:Linear,Linear
+pma:true
+Trail 1[1-8]/Trail 1[1-8] _00000
+bounds:2,834,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00033
+bounds:2,834,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00001
+bounds:167,834,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00002
+bounds:332,834,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00003
+bounds:497,834,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00004
+bounds:662,834,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00005
+bounds:827,834,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00006
+bounds:992,834,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00007
+bounds:1157,834,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00008
+bounds:1322,834,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00009
+bounds:1487,834,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00010
+bounds:1652,834,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00011
+bounds:2,717,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00012
+bounds:167,717,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00013
+bounds:332,717,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00014
+bounds:497,717,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00015
+bounds:662,717,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00016
+bounds:827,717,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00017
+bounds:992,717,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00018
+bounds:1157,717,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00019
+bounds:1322,717,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00020
+bounds:1487,717,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00021
+bounds:1652,717,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00022
+bounds:2,600,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00023
+bounds:167,600,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00024
+bounds:332,600,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00025
+bounds:497,600,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00026
+bounds:662,600,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00027
+bounds:827,600,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00028
+bounds:992,600,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00029
+bounds:1157,600,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00030
+bounds:1322,600,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00031
+bounds:1487,600,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 1[1-8]/Trail 1[1-8] _00032
+bounds:1652,600,115,163
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00001
+bounds:2,483,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00033
+bounds:2,483,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00002
+bounds:171,483,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00003
+bounds:340,483,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00004
+bounds:509,483,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00005
+bounds:678,483,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00006
+bounds:847,483,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00007
+bounds:1016,483,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00008
+bounds:1185,483,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00009
+bounds:1354,483,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00010
+bounds:1523,483,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00011
+bounds:1692,431,115,167
+offsets:0,0,115,204
+Trail 2[1-8]/Trail 2[1-8]_00012
+bounds:2,366,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00013
+bounds:171,366,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00014
+bounds:340,366,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00015
+bounds:509,366,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00016
+bounds:678,366,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00017
+bounds:847,366,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00018
+bounds:1016,366,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00019
+bounds:1185,366,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00020
+bounds:1354,366,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00021
+bounds:1523,366,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00022
+bounds:1692,262,115,167
+offsets:0,0,115,204
+Trail 2[1-8]/Trail 2[1-8]_00023
+bounds:2,249,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00024
+bounds:171,249,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00025
+bounds:340,249,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00026
+bounds:509,249,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00027
+bounds:678,249,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00028
+bounds:847,249,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00029
+bounds:1016,249,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00030
+bounds:1185,249,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00031
+bounds:1354,249,115,167
+offsets:0,0,115,204
+rotate:90
+Trail 2[1-8]/Trail 2[1-8]_00032
+bounds:1523,249,115,167
+offsets:0,0,115,204
+rotate:90
+bonus
+bounds:2,2,926,245
+offsets:2,2,929,249
+game
+bounds:930,2,703,245
+offsets:5,1,711,247

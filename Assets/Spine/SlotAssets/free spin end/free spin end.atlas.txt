@@ -1,0 +1,424 @@
+free spin end.png
+size:1433,1035
+filter:Linear,Linear
+pma:true
+pink line fx
+bounds:1001,711,125,81
+offsets:16,11,157,105
+pink partical FX/pink partical FX_00001
+bounds:1092,409,1,1
+pink partical FX/pink partical FX_00120
+bounds:1092,409,1,1
+pink partical FX/pink partical FX_00002
+bounds:421,93,1,1
+offsets:65,80,150,150
+pink partical FX/pink partical FX_00003
+bounds:503,333,18,6
+offsets:62,77,150,150
+pink partical FX/pink partical FX_00004
+bounds:752,135,20,10
+offsets:60,76,150,150
+pink partical FX/pink partical FX_00005
+bounds:944,2,23,13
+offsets:57,75,150,150
+pink partical FX/pink partical FX_00006
+bounds:828,116,25,17
+offsets:55,74,150,150
+pink partical FX/pink partical FX_00007
+bounds:1114,689,29,20
+offsets:52,73,150,150
+pink partical FX/pink partical FX_00008
+bounds:1399,524,32,24
+offsets:50,72,150,150
+pink partical FX/pink partical FX_00009
+bounds:1299,619,36,28
+offsets:47,71,150,150
+rotate:90
+pink partical FX/pink partical FX_00010
+bounds:696,304,40,31
+offsets:44,70,150,150
+rotate:90
+pink partical FX/pink partical FX_00011
+bounds:1268,2,43,35
+offsets:42,69,150,150
+rotate:90
+pink partical FX/pink partical FX_00012
+bounds:1357,7,47,38
+offsets:39,68,150,150
+pink partical FX/pink partical FX_00013
+bounds:1305,3,50,42
+offsets:37,67,150,150
+pink partical FX/pink partical FX_00014
+bounds:1003,12,54,47
+offsets:34,65,150,150
+pink partical FX/pink partical FX_00015
+bounds:944,17,57,50
+offsets:32,64,150,150
+pink partical FX/pink partical FX_00016
+bounds:696,84,61,54
+offsets:29,63,150,150
+rotate:90
+pink partical FX/pink partical FX_00017
+bounds:819,2,65,57
+offsets:26,62,150,150
+pink partical FX/pink partical FX_00018
+bounds:942,69,68,61
+offsets:24,61,150,150
+pink partical FX/pink partical FX_00019
+bounds:752,67,74,66
+offsets:21,59,150,150
+pink partical FX/pink partical FX_00020
+bounds:944,304,78,69
+offsets:19,58,150,150
+rotate:90
+pink partical FX/pink partical FX_00021
+bounds:447,237,83,74
+offsets:16,56,150,150
+rotate:90
+pink partical FX/pink partical FX_00022
+bounds:522,2,89,77
+offsets:13,55,150,150
+rotate:90
+pink partical FX/pink partical FX_00023
+bounds:434,93,93,82
+offsets:11,53,150,150
+pink partical FX/pink partical FX_00024
+bounds:855,312,87,86
+offsets:19,52,150,150
+pink partical FX/pink partical FX_00025
+bounds:2,2,92,87
+offsets:16,50,150,150
+rotate:90
+pink partical FX/pink partical FX_00026
+bounds:1333,941,98,92
+offsets:13,48,150,150
+pink partical FX/pink partical FX_00027
+bounds:424,177,103,58
+offsets:10,47,150,150
+pink partical FX/pink partical FX_00028
+bounds:790,344,108,63
+offsets:7,45,150,150
+rotate:90
+pink partical FX/pink partical FX_00029
+bounds:944,384,114,67
+offsets:4,43,150,150
+rotate:90
+pink partical FX/pink partical FX_00030
+bounds:943,223,79,70
+offsets:41,42,150,150
+rotate:90
+pink partical FX/pink partical FX_00031
+bounds:782,206,71,52
+offsets:38,63,150,150
+pink partical FX/pink partical FX_00032
+bounds:886,2,65,56
+offsets:36,61,150,150
+rotate:90
+pink partical FX/pink partical FX_00033
+bounds:1349,47,69,60
+offsets:33,59,150,150
+pink partical FX/pink partical FX_00034
+bounds:743,2,74,63
+offsets:30,58,150,150
+pink partical FX/pink partical FX_00035
+bounds:280,96,78,68
+offsets:28,56,150,150
+rotate:90
+pink partical FX/pink partical FX_00036
+bounds:782,260,82,71
+offsets:25,55,150,150
+rotate:90
+pink partical FX/pink partical FX_00037
+bounds:1015,216,87,75
+offsets:22,53,150,150
+rotate:90
+pink partical FX/pink partical FX_00038
+bounds:1240,657,91,80
+offsets:19,51,150,150
+pink partical FX/pink partical FX_00039
+bounds:855,238,86,72
+offsets:17,50,150,150
+pink partical FX/pink partical FX_00040
+bounds:855,69,85,77
+offsets:20,48,150,150
+pink partical FX/pink partical FX_00041
+bounds:1299,537,90,80
+offsets:17,47,150,150
+pink partical FX/pink partical FX_00042
+bounds:1333,619,94,85
+offsets:14,45,150,150
+pink partical FX/pink partical FX_00043
+bounds:421,2,99,89
+offsets:11,43,150,150
+pink partical FX/pink partical FX_00044
+bounds:1013,412,104,80
+offsets:8,55,150,150
+rotate:90
+pink partical FX/pink partical FX_00045
+bounds:1095,515,108,48
+offsets:5,54,150,150
+rotate:90
+pink partical FX/pink partical FX_00046
+bounds:690,2,80,51
+offsets:36,52,150,150
+rotate:90
+pink partical FX/pink partical FX_00047
+bounds:1091,9,84,56
+offsets:34,49,150,150
+pink partical FX/pink partical FX_00048
+bounds:605,84,89,61
+offsets:31,46,150,150
+pink partical FX/pink partical FX_00049
+bounds:1233,537,94,64
+offsets:28,44,150,150
+rotate:90
+pink partical FX/pink partical FX_00050
+bounds:1333,796,98,69
+offsets:26,41,150,150
+pink partical FX/pink partical FX_00051
+bounds:529,131,104,74
+offsets:23,38,150,150
+rotate:90
+pink partical FX/pink partical FX_00052
+bounds:337,242,108,78
+offsets:21,36,150,150
+pink partical FX/pink partical FX_00053
+bounds:180,2,92,84
+offsets:40,33,150,150
+rotate:90
+pink partical FX/pink partical FX_00054
+bounds:605,147,95,90
+offsets:39,30,150,150
+rotate:90
+pink partical FX/pink partical FX_00055
+bounds:1145,537,86,94
+offsets:38,28,150,150
+pink partical FX/pink partical FX_00056
+bounds:604,244,90,100
+offsets:36,25,150,150
+pink partical FX/pink partical FX_00057
+bounds:1006,518,87,105
+offsets:42,22,150,150
+pink partical FX/pink partical FX_00058
+bounds:2,96,91,110
+offsets:40,20,150,150
+pink partical FX/pink partical FX_00059
+bounds:1015,305,75,105
+offsets:39,28,150,150
+pink partical FX/pink partical FX_00060
+bounds:1177,330,73,99
+offsets:43,36,150,150
+pink partical FX/pink partical FX_00061
+bounds:1095,409,76,104
+offsets:42,34,150,150
+pink partical FX/pink partical FX_00062
+bounds:1177,188,81,90
+offsets:40,31,150,150
+rotate:90
+pink partical FX/pink partical FX_00063
+bounds:1313,441,84,94
+offsets:39,29,150,150
+pink partical FX/pink partical FX_00064
+bounds:1243,815,88,99
+offsets:37,26,150,150
+pink partical FX/pink partical FX_00065
+bounds:1092,218,87,83
+offsets:35,24,150,150
+rotate:90
+pink partical FX/pink partical FX_00066
+bounds:697,147,78,67
+offsets:46,42,150,150
+pink partical FX/pink partical FX_00067
+bounds:1315,270,82,73
+offsets:44,39,150,150
+pink partical FX/pink partical FX_00068
+bounds:192,96,86,78
+offsets:42,36,150,150
+pink partical FX/pink partical FX_00069
+bounds:1092,146,70,83
+offsets:41,33,150,150
+rotate:90
+pink partical FX/pink partical FX_00070
+bounds:1243,739,74,88
+offsets:39,30,150,150
+rotate:90
+pink partical FX/pink partical FX_00071
+bounds:1145,633,77,93
+offsets:38,27,150,150
+rotate:90
+pink partical FX/pink partical FX_00072
+bounds:1333,867,72,98
+offsets:45,24,150,150
+rotate:90
+pink partical FX/pink partical FX_00073
+bounds:1173,431,76,104
+offsets:44,20,150,150
+pink partical FX/pink partical FX_00074
+bounds:1128,712,80,110
+offsets:43,17,150,150
+rotate:90
+pink partical FX/pink partical FX_00075
+bounds:101,236,84,115
+offsets:41,14,150,150
+rotate:90
+pink partical FX/pink partical FX_00076
+bounds:1001,625,84,111
+offsets:44,11,150,150
+rotate:90
+pink partical FX/pink partical FX_00077
+bounds:1243,916,88,117
+offsets:43,8,150,150
+pink partical FX/pink partical FX_00078
+bounds:602,346,93,106
+offsets:41,22,150,150
+pink partical FX/pink partical FX_00079
+bounds:2,208,97,112
+offsets:39,19,150,150
+pink partical FX/pink partical FX_00080
+bounds:218,244,76,117
+offsets:38,17,150,150
+rotate:90
+pink partical FX/pink partical FX_00081
+bounds:523,237,79,102
+offsets:36,34,150,150
+pink partical FX/pink partical FX_00082
+bounds:1269,121,64,84
+offsets:53,55,150,150
+rotate:90
+pink partical FX/pink partical FX_00083
+bounds:943,132,67,89
+offsets:52,53,150,150
+pink partical FX/pink partical FX_00084
+bounds:1354,196,72,64
+offsets:50,52,150,150
+rotate:90
+pink partical FX/pink partical FX_00085
+bounds:777,135,76,69
+offsets:49,50,150,150
+pink partical FX/pink partical FX_00086
+bounds:1268,47,79,72
+offsets:48,49,150,150
+pink partical FX/pink partical FX_00087
+bounds:1092,67,83,77
+offsets:47,47,150,150
+pink partical FX/pink partical FX_00088
+bounds:601,2,87,80
+offsets:46,46,150,150
+pink partical FX/pink partical FX_00089
+bounds:1012,61,77,74
+offsets:44,55,150,150
+pink partical FX/pink partical FX_00090
+bounds:350,96,82,78
+offsets:41,53,150,150
+pink partical FX/pink partical FX_00091
+bounds:697,216,86,83
+offsets:39,51,150,150
+rotate:90
+pink partical FX/pink partical FX_00092
+bounds:91,2,92,87
+offsets:36,49,150,150
+rotate:90
+pink partical FX/pink partical FX_00093
+bounds:1333,706,96,88
+offsets:34,46,150,150
+pink partical FX/pink partical FX_00094
+bounds:347,2,72,92
+offsets:31,44,150,150
+pink partical FX/pink partical FX_00095
+bounds:1177,45,76,89
+offsets:29,41,150,150
+rotate:90
+pink partical FX/pink partical FX_00096
+bounds:1315,345,81,94
+offsets:26,39,150,150
+pink partical FX/pink partical FX_00097
+bounds:855,400,87,100
+offsets:23,36,150,150
+pink partical FX/pink partical FX_00098
+bounds:697,347,91,105
+offsets:21,34,150,150
+pink partical FX/pink partical FX_00099
+bounds:503,341,97,111
+offsets:18,31,150,150
+pink partical FX/pink partical FX_00100
+bounds:846,502,96,115
+offsets:22,29,150,150
+pink partical FX/pink partical FX_00101
+bounds:95,96,95,78
+offsets:25,26,150,150
+pink partical FX/pink partical FX_00102
+bounds:1092,307,100,83
+offsets:23,24,150,150
+rotate:90
+pink partical FX/pink partical FX_00103
+bounds:1012,137,78,77
+offsets:47,33,150,150
+pink partical FX/pink partical FX_00104
+bounds:1269,187,83,81
+offsets:45,31,150,150
+pink partical FX/pink partical FX_00105
+bounds:855,148,88,86
+offsets:43,29,150,150
+rotate:90
+pink partical FX/pink partical FX_00106
+bounds:266,2,92,79
+offsets:41,39,150,150
+rotate:90
+pink partical FX/pink partical FX_00107
+bounds:1355,109,60,85
+offsets:39,36,150,150
+pink partical FX/pink partical FX_00108
+bounds:1177,123,63,90
+offsets:37,34,150,150
+rotate:90
+pink partical FX/pink partical FX_00109
+bounds:218,176,66,96
+offsets:35,31,150,150
+rotate:90
+pink partical FX/pink partical FX_00110
+bounds:1252,330,61,100
+offsets:34,29,150,150
+pink partical FX/pink partical FX_00111
+bounds:316,176,64,106
+offsets:32,26,150,150
+rotate:90
+pink partical FX/pink partical FX_00112
+bounds:101,176,58,111
+offsets:30,24,150,150
+rotate:90
+pink partical FX/pink partical FX_00113
+bounds:944,500,60,117
+offsets:28,21,150,150
+pink partical FX/pink partical FX_00114
+bounds:1177,271,57,99
+offsets:32,42,150,150
+rotate:90
+pink partical FX/pink partical FX_00115
+bounds:1251,432,60,103
+offsets:29,40,150,150
+pink partical FX/pink partical FX_00116
+bounds:1278,270,58,35
+offsets:27,38,150,150
+rotate:90
+pink partical FX/pink partical FX_00117
+bounds:529,93,61,36
+offsets:25,36,150,150
+pink partical FX/pink partical FX_00118
+bounds:1177,5,64,38
+offsets:22,34,150,150
+pink partical FX/pink partical FX_00119
+bounds:1391,550,67,40
+offsets:20,32,150,150
+rotate:90
+take
+bounds:2,322,499,130
+offsets:1,1,501,132
+win
+bounds:2,619,997,414
+offsets:2,1,1000,416
+win stars
+bounds:1001,794,240,239
+offsets:12,12,264,263
+winboard
+bounds:2,454,842,163
+offsets:1,1,844,167

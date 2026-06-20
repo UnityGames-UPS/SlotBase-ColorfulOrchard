@@ -1,0 +1,261 @@
+mega win.png
+size:4000,620
+filter:Linear,Linear
+pma:true
+coins/1
+bounds:3127,3,157,164
+offsets:21,20,200,200
+rotate:90
+coins/2
+bounds:3840,453,156,165
+offsets:22,18,200,200
+coins/3
+bounds:2155,3,125,163
+offsets:38,19,200,200
+rotate:90
+coins/4
+bounds:288,2,54,167
+offsets:73,16,200,200
+rotate:90
+coins/5
+bounds:120,18,26,166
+offsets:87,17,200,200
+rotate:90
+coins/6
+bounds:457,2,54,167
+offsets:73,16,200,200
+rotate:90
+coins/7
+bounds:2531,6,124,165
+offsets:38,17,200,200
+rotate:90
+coins/8
+bounds:3840,286,156,165
+offsets:22,17,200,200
+coins/9
+bounds:3293,4,157,164
+offsets:22,18,200,200
+rotate:90
+fire fx/fire fx_00000
+bounds:120,9,1,1
+fire fx/fire fx_00001
+bounds:120,9,1,1
+fire fx/fire fx_00057
+bounds:120,9,1,1
+fire fx/fire fx_00002
+bounds:2,3,116,41
+offsets:177,113,480,270
+fire fx/fire fx_00003
+bounds:3668,287,138,45
+offsets:175,110,480,270
+rotate:90
+fire fx/fire fx_00004
+bounds:3670,176,141,49
+offsets:173,108,480,270
+fire fx/fire fx_00005
+bounds:626,5,145,53
+offsets:171,106,480,270
+fire fx/fire fx_00006
+bounds:3668,227,148,57
+offsets:169,104,480,270
+fire fx/fire fx_00007
+bounds:773,5,151,62
+offsets:167,101,480,270
+fire fx/fire fx_00008
+bounds:1256,13,156,66
+offsets:164,99,480,270
+fire fx/fire fx_00009
+bounds:1093,9,161,70
+offsets:161,97,480,270
+fire fx/fire fx_00010
+bounds:926,3,165,74
+offsets:158,95,480,270
+fire fx/fire fx_00011
+bounds:1414,4,169,79
+offsets:156,93,480,270
+fire fx/fire fx_00012
+bounds:3818,200,174,84
+offsets:153,90,480,270
+fire fx/fire fx_00013
+bounds:1585,6,178,90
+offsets:150,87,480,270
+fire fx/fire fx_00014
+bounds:3459,2,182,95
+offsets:147,84,480,270
+rotate:90
+fire fx/fire fx_00015
+bounds:3813,96,185,102
+offsets:145,80,480,270
+fire fx/fire fx_00016
+bounds:1765,3,189,107
+offsets:143,78,480,270
+fire fx/fire fx_00017
+bounds:3556,16,193,112
+offsets:141,75,480,270
+rotate:90
+fire fx/fire fx_00018
+bounds:1956,3,197,117
+offsets:139,73,480,270
+fire fx/fire fx_00019
+bounds:2698,9,202,123
+offsets:136,69,480,270
+fire fx/fire fx_00020
+bounds:2320,2,209,127
+offsets:132,66,480,270
+fire fx/fire fx_00021
+bounds:3353,186,215,132
+offsets:129,63,480,270
+rotate:90
+fire fx/fire fx_00022
+bounds:3150,399,219,139
+offsets:127,59,480,270
+rotate:90
+fire fx/fire fx_00023
+bounds:2902,2,223,145
+offsets:124,56,480,270
+fire fx/fire fx_00024
+bounds:2995,162,227,151
+offsets:122,53,480,270
+rotate:90
+fire fx/fire fx_00025
+bounds:2837,149,231,156
+offsets:120,50,480,270
+rotate:90
+fire fx/fire fx_00026
+bounds:2793,382,236,161
+offsets:118,48,480,270
+rotate:90
+fire fx/fire fx_00027
+bounds:2465,132,240,167
+offsets:116,45,480,270
+rotate:90
+fire fx/fire fx_00028
+bounds:1887,122,245,173
+offsets:114,42,480,270
+rotate:90
+fire fx/fire fx_00029
+bounds:1871,369,249,178
+offsets:112,39,480,270
+rotate:90
+fire fx/fire fx_00030
+bounds:1687,364,254,182
+offsets:109,37,480,270
+rotate:90
+fire fx/fire fx_00031
+bounds:1498,98,259,187
+offsets:106,34,480,270
+rotate:90
+fire fx/fire fx_00032
+bounds:1296,354,264,190
+offsets:104,32,480,270
+rotate:90
+fire fx/fire fx_00033
+bounds:1100,351,267,194
+offsets:103,30,480,270
+rotate:90
+fire fx/fire fx_00034
+bounds:904,350,268,194
+offsets:103,30,480,270
+rotate:90
+fire fx/fire fx_00035
+bounds:885,79,268,197
+offsets:103,29,480,270
+rotate:90
+fire fx/fire fx_00036
+bounds:1293,85,264,203
+offsets:107,25,480,270
+rotate:90
+fire fx/fire fx_00037
+bounds:1084,81,267,207
+offsets:106,23,480,270
+rotate:90
+fire fx/fire fx_00038
+bounds:691,349,269,211
+offsets:104,21,480,270
+rotate:90
+fire fx/fire fx_00039
+bounds:669,69,272,214
+offsets:102,18,480,270
+rotate:90
+fire fx/fire fx_00040
+bounds:474,343,275,215
+offsets:101,17,480,270
+rotate:90
+fire fx/fire fx_00041
+bounds:259,58,279,211
+offsets:99,17,480,270
+rotate:90
+fire fx/fire fx_00042
+bounds:259,339,279,213
+offsets:99,17,480,270
+rotate:90
+fire fx/fire fx_00043
+bounds:472,60,277,195
+offsets:100,37,480,270
+rotate:90
+fire fx/fire fx_00044
+bounds:1488,359,259,197
+offsets:112,36,480,270
+rotate:90
+fire fx/fire fx_00045
+bounds:1687,112,250,198
+offsets:121,36,480,270
+rotate:90
+fire fx/fire fx_00046
+bounds:2062,130,242,199
+offsets:120,36,480,270
+rotate:90
+fire fx/fire fx_00047
+bounds:2263,131,241,200
+offsets:120,37,480,270
+rotate:90
+fire fx/fire fx_00048
+bounds:2634,134,238,201
+offsets:121,36,480,270
+rotate:90
+fire fx/fire fx_00049
+bounds:3148,163,226,203
+offsets:133,34,480,270
+rotate:90
+fire fx/fire fx_00050
+bounds:2956,391,227,192
+offsets:132,33,480,270
+rotate:90
+fire fx/fire fx_00051
+bounds:3291,403,215,185
+offsets:132,33,480,270
+rotate:90
+fire fx/fire fx_00052
+bounds:3478,410,208,184
+offsets:132,34,480,270
+rotate:90
+fire fx/fire fx_00053
+bounds:3487,211,197,179
+offsets:142,36,480,270
+rotate:90
+fire fx/fire fx_00054
+bounds:3664,427,191,174
+offsets:142,36,480,270
+rotate:90
+fire fx/fire fx_00055
+bounds:3670,27,134,147
+offsets:143,36,480,270
+fire fx/fire fx_00056
+bounds:3353,166,18,17
+offsets:257,165,480,270
+rotate:90
+glow_fx
+bounds:3715,327,98,98
+offsets:1,1,100,103
+line
+bounds:120,12,74,4
+offsets:1,0,75,4
+mega
+bounds:2051,374,740,244
+offsets:1,1,744,246
+mega win
+bounds:2,46,572,255
+offsets:6,104,598,446
+rotate:90
+sparkle
+bounds:3806,44,50,50

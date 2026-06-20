@@ -13,7 +13,7 @@ public class UIManager : MonoBehaviour
 
   [Header("Menu UI")]
   [SerializeField]
-  private Button Info_Button;
+  internal Button Info_Button;
 
   [Header("Popus UI")]
   [SerializeField]
@@ -58,8 +58,8 @@ public class UIManager : MonoBehaviour
   [SerializeField] private Button SettingExit_button;
   [SerializeField] private Button Setting_back_button;
   [SerializeField] private GameObject Setting_panel;
-  [SerializeField] private Slider Sound_slider;
-  [SerializeField] private Slider Music_slider;
+  [SerializeField] private Button SoundOn_Button;
+  [SerializeField] private Button SoundOff_Button;
 
   [Header("LowBalance Popup")]
   [SerializeField]
@@ -97,28 +97,27 @@ public class UIManager : MonoBehaviour
   [SerializeField]
   private Button BackQuit_Button;
 
-  [Header("Megawin Popup")]
-  [SerializeField] private GameObject megawin;
-  [SerializeField] private TMP_Text megawin_text;
-  [SerializeField] private Image Win_Image;
-  [SerializeField] private Sprite HugeWin_Sprite;
-  [SerializeField] private Sprite BigWin_Sprite;
-  [SerializeField] private Sprite MegaWin_Sprite;
-  [SerializeField] private Sprite Scater_Sprite;
-  [SerializeField] private Button MegaWinHideBtn;
+  [Header("Miscellanous Win Popup")]
+  [SerializeField] private GameObject WinPopup_Object;
+  [SerializeField] private GameObject NormalWinPopup_Object;
+  [SerializeField] private GameObject BigWinPopup_Object;
+  [SerializeField] private GameObject GreatWinPopup_Object;
+  [SerializeField] private GameObject MegaWinPopup_Object;
+  [SerializeField] private GameObject BonusPopup_Object;
+  [SerializeField] private SpineAnimController NormalWin_Anim;
+  [SerializeField] private SpineAnimController BigWin_Anim;
+  [SerializeField] private SpineAnimController GreatWin_Anim;
+  [SerializeField] private SpineAnimController MegaWin_Anim;
+  [SerializeField] private SpineAnimController BonusWin_Anim;
+  [SerializeField] private TMP_Text WinText_text;
+  [SerializeField] private TMP_Text NormalWinText_text;
+  [SerializeField] private Button WinHideBtn;
 
   [Header("FreeSpins Popup")]
   [SerializeField]
   private GameObject FreeSpinPopup_Object;
   [SerializeField]
-  private TMP_Text Free_Text;
-  [SerializeField]
-  private Button FreeSpin_Button;
-
-  //[Header("gamble game")]
-  //[SerializeField] private Button Gamble_button;
-  //[SerializeField] private Button GambleExit_button;
-  //[SerializeField] private GameObject Gamble_game;
+  private SpineAnimController FreeSpinPopup_Animation;
 
   [Header("Audio")]
   [SerializeField] private AudioController audioController;
@@ -170,14 +169,21 @@ public class UIManager : MonoBehaviour
     if (Setting_button) Setting_button.onClick.RemoveAllListeners();
     if (Setting_button) Setting_button.onClick.AddListener(delegate { OpenPopup(Setting_panel); });
 
-    if (Sound_slider) Sound_slider.onValueChanged.RemoveAllListeners();
-    if (Sound_slider) Sound_slider.onValueChanged.AddListener(delegate { ChangeSound(); });
+    if (SoundOn_Button) SoundOn_Button.onClick.RemoveAllListeners();
+    if (SoundOn_Button) SoundOn_Button.onClick.AddListener(delegate
+    {
+      SoundOn_Button.gameObject.SetActive(false);
+      SoundOff_Button.gameObject.SetActive(true);
+      ChangeSound(false);
+    });
 
-    if (Music_slider) Music_slider.onValueChanged.RemoveAllListeners();
-    if (Music_slider) Music_slider.onValueChanged.AddListener(delegate { ChangeMusic(); });
-
-    if (FreeSpin_Button) FreeSpin_Button.onClick.RemoveAllListeners();
-    if (FreeSpin_Button) FreeSpin_Button.onClick.AddListener(delegate { StartFreeSpins(FreeSpins); });
+    if (SoundOff_Button) SoundOff_Button.onClick.RemoveAllListeners();
+    if (SoundOff_Button) SoundOff_Button.onClick.AddListener(delegate
+    {
+      SoundOn_Button.gameObject.SetActive(true);
+      SoundOff_Button.gameObject.SetActive(false);
+      ChangeSound(true);
+    });
 
     if (SettingExit_button) SettingExit_button.onClick.RemoveAllListeners();
     if (SettingExit_button) SettingExit_button.onClick.AddListener(delegate { ClosePopup(Setting_panel); });
@@ -185,8 +191,8 @@ public class UIManager : MonoBehaviour
     if (Setting_back_button) Setting_back_button.onClick.RemoveAllListeners();
     if (Setting_back_button) Setting_back_button.onClick.AddListener(delegate { ClosePopup(Setting_panel); });
 
-    if (MegaWinHideBtn) MegaWinHideBtn.onClick.RemoveAllListeners();
-    if (MegaWinHideBtn) MegaWinHideBtn.onClick.AddListener(OnClickMegaWinHide);
+    if (WinHideBtn) WinHideBtn.onClick.RemoveAllListeners();
+    if (WinHideBtn) WinHideBtn.onClick.AddListener(OnClickWinHide);
 
     if (GameExit_Button) GameExit_Button.onClick.RemoveAllListeners();
     if (GameExit_Button) GameExit_Button.onClick.AddListener(delegate { OpenPopup(QuitPopup_Object); });
@@ -245,15 +251,13 @@ public class UIManager : MonoBehaviour
 
   internal void FreeSpinProcess(int spins)
   {
-
-    int ExtraSpins = spins - FreeSpins;
     FreeSpins = spins;
 
-
-    if (FreeSpinPopup_Object) FreeSpinPopup_Object.SetActive(true);
-    if (Free_Text) Free_Text.text = "You are awarded with " + ExtraSpins.ToString() + " extra free spins.";
     if (MainPopup_Object) MainPopup_Object.SetActive(true);
-    DOVirtual.DelayedCall(2f, () =>
+    if (FreeSpinPopup_Object) FreeSpinPopup_Object.SetActive(true);
+    FreeSpinPopup_Animation.Stop();
+    FreeSpinPopup_Animation.Play(false);
+    DOVirtual.DelayedCall(6f, () =>
     {
       StartFreeSpins(spins);
     });
@@ -263,37 +267,69 @@ public class UIManager : MonoBehaviour
   {
     double initAmount = 0;
     double originalAmount = amount;
+    if (WinPopup_Object) WinPopup_Object.SetActive(true);
+    if (MainPopup_Object) MainPopup_Object.SetActive(true);
     switch (type)
     {
       case 1:
-        if (Win_Image) Win_Image.sprite = BigWin_Sprite;
+        BigWinPopup_Object.SetActive(true);
+        BigWin_Anim.Stop();
+        BigWin_Anim.Play(false);
         break;
       case 2:
-        if (Win_Image) Win_Image.sprite = HugeWin_Sprite;
+        GreatWinPopup_Object.SetActive(true);
+        GreatWin_Anim.Stop();
+        GreatWin_Anim.Play(false);
         break;
       case 3:
-        if (Win_Image) Win_Image.sprite = MegaWin_Sprite;
-        break;
-      case 4:
-        if (Win_Image) Win_Image.sprite = Scater_Sprite;
+        MegaWinPopup_Object.SetActive(true);
+        MegaWin_Anim.Stop();
+        MegaWin_Anim.Play(false);
         break;
     }
-    if (megawin) megawin.SetActive(true);
-    if (MainPopup_Object) MainPopup_Object.SetActive(true);
 
     DOTween.To(() => initAmount, (val) => initAmount = val, amount, 1f).OnUpdate(() =>
     {
-      if (megawin_text) megawin_text.text = initAmount.ToString("f2");
+      if (WinText_text) WinText_text.text = initAmount.ToString("f2");
     });
 
-    DOVirtual.DelayedCall(3.5f, OnClickMegaWinHide);
+    DOVirtual.DelayedCall(3f, OnClickWinHide);
   }
 
-  private void OnClickMegaWinHide()
+  internal void NormalWin(double amount)
+  {
+    NormalWinText_text.gameObject.SetActive(true);
+    NormalWin_Anim.Play(false);
+    NormalWinText_text.gameObject.SetActive(true);
+    NormalWinText_text.text = amount.ToString("f2");
+    slotManager.CheckPopups = false;
+    DOVirtual.DelayedCall(3f, () =>
+    {
+      NormalWinText_text.gameObject.SetActive(false);
+    });
+  }
+
+  internal void BonusWinStartSequence()
+  {
+    if (BonusPopup_Object) BonusPopup_Object.SetActive(true);
+    if (MainPopup_Object) MainPopup_Object.SetActive(true);
+    BonusWin_Anim.Stop();
+    BonusWin_Anim.Play(false);
+  }
+  internal void BonusWinEndSequence()
+  {
+    if (BonusPopup_Object) BonusPopup_Object.SetActive(false);
+    if (MainPopup_Object) MainPopup_Object.SetActive(false);
+  }
+
+  private void OnClickWinHide()
   {
     if (MainPopup_Object) MainPopup_Object.SetActive(false);
-    if (megawin) megawin.SetActive(false);
-    if (megawin_text) megawin_text.text = "0";
+    if (WinPopup_Object) WinPopup_Object.SetActive(false);
+    MegaWinPopup_Object.SetActive(false);
+    BigWinPopup_Object.SetActive(false);
+    GreatWinPopup_Object.SetActive(false);
+    if (WinText_text) WinText_text.text = "0";
     slotManager.CheckPopups = false;
   }
   internal void ADfunction()
@@ -408,14 +444,8 @@ public class UIManager : MonoBehaviour
     Header_texts[counter].color = Color.green;
   }
 
-  private void ChangeSound()
+  private void ChangeSound(bool isOn)
   {
-    audioController.ChangeVolume("wl", Sound_slider.value);
-    audioController.ChangeVolume("button", Sound_slider.value);
-  }
-
-  private void ChangeMusic()
-  {
-    audioController.ChangeVolume("bg", Music_slider.value);
+    audioController.gameObject.SetActive(isOn);
   }
 }
