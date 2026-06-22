@@ -104,14 +104,18 @@ public class UIManager : MonoBehaviour
   [SerializeField] private GameObject GreatWinPopup_Object;
   [SerializeField] private GameObject MegaWinPopup_Object;
   [SerializeField] private GameObject BonusPopup_Object;
+  [SerializeField] private GameObject FeatureEndPopup_Object;
   [SerializeField] private SpineAnimController NormalWin_Anim;
   [SerializeField] private SpineAnimController BigWin_Anim;
   [SerializeField] private SpineAnimController GreatWin_Anim;
   [SerializeField] private SpineAnimController MegaWin_Anim;
   [SerializeField] private SpineAnimController BonusWin_Anim;
+  [SerializeField] private SpineAnimController FeatureEnd_Anim;
   [SerializeField] private TMP_Text WinText_text;
   [SerializeField] private TMP_Text NormalWinText_text;
+  [SerializeField] private TMP_Text FeatureEndText_text;
   [SerializeField] private Button WinHideBtn;
+  [SerializeField] private Button FeatureEndBtn;
 
   [Header("FreeSpins Popup")]
   [SerializeField]
@@ -133,6 +137,8 @@ public class UIManager : MonoBehaviour
 
   [SerializeField]
   private SlotBehaviour slotManager;
+  [SerializeField]
+  private BonusGame bonusManager;
 
   [SerializeField]
   private SocketIOManager socketManager;
@@ -224,6 +230,9 @@ public class UIManager : MonoBehaviour
     if (CloseAD_Button) CloseAD_Button.onClick.RemoveAllListeners();
     if (CloseAD_Button) CloseAD_Button.onClick.AddListener(CallOnExitFunction);
 
+    if (FeatureEndBtn) FeatureEndBtn.onClick.RemoveAllListeners();
+    if (FeatureEndBtn) FeatureEndBtn.onClick.AddListener(FeatureEndTakeSeq);
+
     if (CloseDisconnect_Button) CloseDisconnect_Button.onClick.RemoveAllListeners();
     if (CloseDisconnect_Button) CloseDisconnect_Button.onClick.AddListener(delegate { CallOnExitFunction(); socketManager.closeSocketReactnativeCall(); });
 
@@ -311,9 +320,9 @@ public class UIManager : MonoBehaviour
 
   internal void BonusWinStartSequence()
   {
-    if (BonusPopup_Object) BonusPopup_Object.SetActive(true);
-    if (MainPopup_Object) MainPopup_Object.SetActive(true);
     BonusWin_Anim.Stop();
+    if (MainPopup_Object) MainPopup_Object.SetActive(true);
+    if (BonusPopup_Object) BonusPopup_Object.SetActive(true);
     BonusWin_Anim.Play(false);
   }
   internal void BonusWinEndSequence()
@@ -321,7 +330,30 @@ public class UIManager : MonoBehaviour
     if (BonusPopup_Object) BonusPopup_Object.SetActive(false);
     if (MainPopup_Object) MainPopup_Object.SetActive(false);
   }
-
+  internal void FeatureEndSeq(string amount)
+  {
+    if (FeatureEndPopup_Object) FeatureEndPopup_Object.SetActive(true);
+    if (MainPopup_Object) MainPopup_Object.SetActive(true);
+    FeatureEndText_text.text = amount;
+    FeatureEnd_Anim.Stop();
+    FeatureEnd_Anim.Play(true);
+    isEndGame = true;
+    DOVirtual.DelayedCall(6f, () =>
+    {
+      if (isEndGame)
+      {
+        FeatureEndTakeSeq();
+      }
+    });
+  }
+  bool isEndGame = true;
+  internal void FeatureEndTakeSeq()
+  {
+    isEndGame = false;
+    if (FeatureEndPopup_Object) FeatureEndPopup_Object.SetActive(false);
+    if (MainPopup_Object) MainPopup_Object.SetActive(false);
+    bonusManager.EndBonus();
+  }
   private void OnClickWinHide()
   {
     if (MainPopup_Object) MainPopup_Object.SetActive(false);
@@ -349,6 +381,7 @@ public class UIManager : MonoBehaviour
   {
     PopulateSymbolsPayout(symbolsText);
   }
+
 
   private void PopulateSymbolsPayout(Paylines paylines)
   {

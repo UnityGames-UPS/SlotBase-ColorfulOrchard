@@ -23,11 +23,20 @@ public class BonusGame : MonoBehaviour
     private Button Lever_Button;
     [SerializeField]
     private SpineAnimController Lever_Anim;
+    [SerializeField]
+    private UIManager uIManager;
 
     private void Start()
     {
         Lever_Button.onClick.RemoveAllListeners();
         Lever_Button.onClick.AddListener(LeverHit);
+    }
+
+    internal void EndBonus()
+    {
+        BonusGame_Screen.SetActive(false);
+        slotmanager.Balance_text.text = socketManager.BonusData.player.balance.ToString("f3");
+        slotmanager.CheckPopups = false;
     }
 
     internal void StartBonus()
@@ -85,8 +94,7 @@ public class BonusGame : MonoBehaviour
                 Totalscore_text.text = socketManager.BonusData.payload.totalBonusWin.ToString();
                 if (socketManager.BonusData.payload.isLastSpin)
                 {
-                    BonusGame_Screen.SetActive(false);
-                    slotmanager.CheckPopups = false;
+                    uIManager.FeatureEndSeq(socketManager.BonusData.payload.totalBonusWin.ToString());
                 }
                 else
                 {
