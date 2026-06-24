@@ -758,6 +758,20 @@ public class Root
 public class Features
 {
   public Jackpot jackpot { get; set; }
+  public Bonus bonus { get; set; }
+}
+[Serializable]
+public class Bonus
+{
+  public string type { get; set; }
+  public int times { get; set; }
+  public List<Paytable> paytable { get; set; }
+}
+[Serializable]
+public class Paytable
+{
+  public int symbol { get; set; }
+  public double multiplier { get; set; }
 }
 
 [Serializable]

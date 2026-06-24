@@ -1,19 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
-using System.Linq;
 using TMPro;
-using System;
 
 
 public class UIManager : MonoBehaviour
 {
-
-  [Header("Menu UI")]
-  [SerializeField]
-  internal Button Info_Button;
 
   [Header("Popus UI")]
   [SerializeField]
@@ -25,7 +17,7 @@ public class UIManager : MonoBehaviour
   [SerializeField]
   private Button PaytableExit_Button;
   [SerializeField]
-  private Button PaytableEntry_Button;
+  internal Button PaytableEntry_Button;
   [SerializeField]
   private Button Rules_Button;
   [SerializeField]
@@ -54,18 +46,12 @@ public class UIManager : MonoBehaviour
   [SerializeField] private TMP_Text Wild_Text;
 
   [Header("Settings Popup")]
-  [SerializeField] private Button Setting_button;
-  [SerializeField] private Button SettingExit_button;
-  [SerializeField] private Button Setting_back_button;
-  [SerializeField] private GameObject Setting_panel;
   [SerializeField] private Button SoundOn_Button;
   [SerializeField] private Button SoundOff_Button;
 
   [Header("LowBalance Popup")]
   [SerializeField]
   private Button LBExit_Button;
-  [SerializeField]
-  private Button LBBack_Button;
   [SerializeField]
   private GameObject LBPopup_Object;
 
@@ -152,10 +138,18 @@ public class UIManager : MonoBehaviour
   {
 
     if (PaytableExit_Button) PaytableExit_Button.onClick.RemoveAllListeners();
-    if (PaytableExit_Button) PaytableExit_Button.onClick.AddListener(delegate { ClosePopup(PaytablePopup_Object); });
+    if (PaytableExit_Button) PaytableExit_Button.onClick.AddListener(delegate
+    {
+      slotManager.WinDescription_text.text = "GOOD LUCK!";
+      ClosePopup(PaytablePopup_Object);
+    });
 
     if (PaytableEntry_Button) PaytableEntry_Button.onClick.RemoveAllListeners();
-    if (PaytableEntry_Button) PaytableEntry_Button.onClick.AddListener(delegate { OpenPopup(PaytablePopup_Object); });
+    if (PaytableEntry_Button) PaytableEntry_Button.onClick.AddListener(delegate
+    {
+      slotManager.WinDescription_text.text = "WELCOME!";
+      OpenPopup(PaytablePopup_Object);
+    });
 
     if (Rules_Button) Rules_Button.onClick.RemoveAllListeners();
     if (Rules_Button) Rules_Button.onClick.AddListener(delegate { OpenPage(0); });
@@ -172,9 +166,6 @@ public class UIManager : MonoBehaviour
     if (Jackpot_Button) Jackpot_Button.onClick.RemoveAllListeners();
     if (Jackpot_Button) Jackpot_Button.onClick.AddListener(delegate { OpenPage(4); });
 
-    if (Setting_button) Setting_button.onClick.RemoveAllListeners();
-    if (Setting_button) Setting_button.onClick.AddListener(delegate { OpenPopup(Setting_panel); });
-
     if (SoundOn_Button) SoundOn_Button.onClick.RemoveAllListeners();
     if (SoundOn_Button) SoundOn_Button.onClick.AddListener(delegate
     {
@@ -190,12 +181,6 @@ public class UIManager : MonoBehaviour
       SoundOff_Button.gameObject.SetActive(false);
       ChangeSound(true);
     });
-
-    if (SettingExit_button) SettingExit_button.onClick.RemoveAllListeners();
-    if (SettingExit_button) SettingExit_button.onClick.AddListener(delegate { ClosePopup(Setting_panel); });
-
-    if (Setting_back_button) Setting_back_button.onClick.RemoveAllListeners();
-    if (Setting_back_button) Setting_back_button.onClick.AddListener(delegate { ClosePopup(Setting_panel); });
 
     if (WinHideBtn) WinHideBtn.onClick.RemoveAllListeners();
     if (WinHideBtn) WinHideBtn.onClick.AddListener(OnClickWinHide);
@@ -220,9 +205,6 @@ public class UIManager : MonoBehaviour
 
     if (LBExit_Button) LBExit_Button.onClick.RemoveAllListeners();
     if (LBExit_Button) LBExit_Button.onClick.AddListener(delegate { ClosePopup(LBPopup_Object); });
-
-    if (LBBack_Button) LBBack_Button.onClick.RemoveAllListeners();
-    if (LBBack_Button) LBBack_Button.onClick.AddListener(delegate { ClosePopup(LBPopup_Object); });
 
     if (YesQuit_Button) YesQuit_Button.onClick.RemoveAllListeners();
     if (YesQuit_Button) YesQuit_Button.onClick.AddListener(CallOnExitFunction);
@@ -308,8 +290,8 @@ public class UIManager : MonoBehaviour
   internal void NormalWin(double amount)
   {
     NormalWinText_text.gameObject.SetActive(true);
+    NormalWin_Anim.Stop();
     NormalWin_Anim.Play(false);
-    NormalWinText_text.gameObject.SetActive(true);
     NormalWinText_text.text = amount.ToString("f2");
     slotManager.CheckPopups = false;
     DOVirtual.DelayedCall(3f, () =>
@@ -332,6 +314,7 @@ public class UIManager : MonoBehaviour
   }
   internal void FeatureEndSeq(string amount)
   {
+    if(audioController)audioController.PlayWLAudio("pinkwin");
     if (FeatureEndPopup_Object) FeatureEndPopup_Object.SetActive(true);
     if (MainPopup_Object) MainPopup_Object.SetActive(true);
     FeatureEndText_text.text = amount;
@@ -352,12 +335,14 @@ public class UIManager : MonoBehaviour
     isEndGame = false;
     if (FeatureEndPopup_Object) FeatureEndPopup_Object.SetActive(false);
     if (MainPopup_Object) MainPopup_Object.SetActive(false);
+    if(audioController)audioController.StopWLAaudio();
     bonusManager.EndBonus();
   }
   private void OnClickWinHide()
   {
     if (MainPopup_Object) MainPopup_Object.SetActive(false);
     if (WinPopup_Object) WinPopup_Object.SetActive(false);
+    if(audioController)audioController.StopWLAaudio();
     MegaWinPopup_Object.SetActive(false);
     BigWinPopup_Object.SetActive(false);
     GreatWinPopup_Object.SetActive(false);

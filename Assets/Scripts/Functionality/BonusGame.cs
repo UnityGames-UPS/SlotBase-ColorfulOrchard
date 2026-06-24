@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Linq;
 
 
 public class BonusGame : MonoBehaviour
@@ -16,6 +17,8 @@ public class BonusGame : MonoBehaviour
     [SerializeField]
     private List<OuterReelItem> SelectorItems;
     [SerializeField]
+    private List<TMP_Text> PaytableTexts;
+    [SerializeField]
     private SocketIOManager socketManager;
     [SerializeField]
     private SlotBehaviour slotmanager;
@@ -25,6 +28,8 @@ public class BonusGame : MonoBehaviour
     private SpineAnimController Lever_Anim;
     [SerializeField]
     private UIManager uIManager;
+    [SerializeField]
+    private AudioController audioManager;
 
     private void Start()
     {
@@ -53,9 +58,20 @@ public class BonusGame : MonoBehaviour
         Lever_Button.interactable = true;
     }
 
+    internal void InitPaytable(List<Paytable> paytable)
+    {
+        double multiplyer = socketManager.InitialData.bets[slotmanager.BetCounter];
+        var sorted = paytable.OrderBy(x => x.symbol).ToList();
+        for (int i = 0; i < sorted.Count; i++)
+        {
+            PaytableTexts[i].text = (sorted[i].multiplier * multiplyer).ToString("f2");
+        }
+    }
+
     private void LeverHit()
     {
         Debug.Log("hit the lever");
+        if (audioManager) audioManager.PlayWLAudio("lever");
         Lever_Button.interactable = false;
         Lever_Anim.Stop();
         Lever_Anim.Play(false);
@@ -100,6 +116,7 @@ public class BonusGame : MonoBehaviour
                 {
                     Lever_Button.interactable = true;
                 }
+                if (audioManager) audioManager.PlayBonusAudio("blueboxstopped");
                 yield break;
             }
             yield return new WaitForSecondsRealtime(0.5f);
@@ -107,6 +124,7 @@ public class BonusGame : MonoBehaviour
     }
     private void StepForward()
     {
+        if (audioManager) audioManager.PlayBonusAudio("bluebox");
         int next = (currentIndex + 1) % SelectorItems.Count;
         SelectorItems[currentIndex].selector.SetActive(false);
         SelectorItems[next].selector.SetActive(true);
