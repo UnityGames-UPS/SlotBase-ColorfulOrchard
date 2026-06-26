@@ -111,6 +111,7 @@ public class UIManager : MonoBehaviour
 
   [Header("Audio")]
   [SerializeField] private AudioController audioController;
+  [SerializeField] private GameObject bonusSounds;
 
   [SerializeField]
   private Button GameExit_Button;
@@ -465,5 +466,6 @@ public class UIManager : MonoBehaviour
   private void ChangeSound(bool isOn)
   {
     audioController.gameObject.SetActive(isOn);
+    bonusSounds.SetActive(isOn);
   }
 }
