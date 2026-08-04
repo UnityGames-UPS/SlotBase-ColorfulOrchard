@@ -333,6 +333,13 @@ public class SlotBehaviour : MonoBehaviour
     }
   }
 
+  internal void UpdateBalanceDisplay(double newBalance)
+  {
+    currentBalance = newBalance;
+    if (Balance_text) Balance_text.text = newBalance.ToString("f2");
+    CompareBalance();
+  }
+
   private void CompareBalance()
   {
     if (currentBalance < currentTotalBet)
@@ -475,8 +482,7 @@ public class SlotBehaviour : MonoBehaviour
 
   private void OnApplicationFocus(bool focus)
   {
-    audioController.CheckFocusFunction(focus, CheckSpinAudio);
-
+    audioController.SetMuteAll(!focus);
   }
 
   [SerializeField]

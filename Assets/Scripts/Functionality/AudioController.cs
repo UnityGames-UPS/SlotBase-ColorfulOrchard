@@ -15,54 +15,38 @@ public class AudioController : MonoBehaviour
     [SerializeField] private SlotBehaviour slotBehaviour;
 
 
+    private List<AudioSource> allSources;
+    private readonly Dictionary<AudioSource, bool> preFocusMuteState = new Dictionary<AudioSource, bool>();
+    private bool isForceMuted = false;
+
+    private void Awake()
+    {
+        allSources = new List<AudioSource> { audioPlayer_wl, audioPlayer_button, audioSpin_button, bg_audioBonus, audioPlayer_Bonus };
+    }
+
     private void Start()
     {
         audioPlayer_button.clip = clips[clips.Length - 1];
         audioSpin_button.clip = clips[clips.Length - 2];
     }
 
-    internal void CheckFocusFunction(bool focus, bool IsSpinning)
+    internal void SetMuteAll(bool forceMute)
     {
-        if (!focus)
+        if (forceMute == isForceMuted) return;
+        isForceMuted = forceMute;
+
+        foreach (var source in allSources)
         {
-            audioPlayer_wl.Pause();
-            audioPlayer_button.Pause();
-        }
-        else
-        {
-            if (IsSpinning)
+            if (source == null) continue;
+            if (forceMute)
             {
-                if (!audioPlayer_wl.mute) audioPlayer_wl.UnPause();
+                preFocusMuteState[source] = source.mute;
+                source.mute = true;
             }
             else
             {
-                StopWLAaudio();
+                source.mute = preFocusMuteState.TryGetValue(source, out bool prevMuted) ? prevMuted : source.mute;
             }
-            if (!audioPlayer_button.mute) audioPlayer_button.UnPause();
-
-        }
-    }
-
-    void RecieveReactNativeAudioChanges(bool focus)
-    {
-        Debug.Log("React-Native Audio Changes Called");
-
-        if (focus)
-        {
-            if (slotBehaviour.IsSpinning)
-            {
-                if (!audioPlayer_wl.mute) audioPlayer_wl.UnPause();
-            }
-            else
-            {
-                StopWLAaudio();
-            }
-            if (!audioPlayer_button.mute) audioPlayer_button.UnPause();
-        }
-        else
-        {
-            audioPlayer_wl.Pause();
-            audioPlayer_button.Pause();
         }
     }
 
