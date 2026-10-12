@@ -6217,22 +6217,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51db53697a53f7a479b8570674dae649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UnityEngine.UI.Extensions.NonDrawingGraphic
-  m_Material: {fileID: 0}
-  m_Color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  m_RaycastTarget: 1
-  m_RaycastTargetCache: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  <useLegacyMeshGeneration>k__BackingField: 1
-  m_Maskable: 1
-  m_IsMaskingGraphic: 0
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
 --- !u!114 &257833217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7484,22 +7468,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51db53697a53f7a479b8570674dae649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UnityEngine.UI.Extensions.NonDrawingGraphic
-  m_Material: {fileID: 0}
-  m_Color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  m_RaycastTarget: 1
-  m_RaycastTargetCache: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  <useLegacyMeshGeneration>k__BackingField: 1
-  m_Maskable: 1
-  m_IsMaskingGraphic: 0
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
 --- !u!114 &317591949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11833,7 +11801,7 @@ MonoBehaviour:
   bonusController: {fileID: 1450274932}
   JSManager: {fileID: 1989661610}
   TestSocketURI: https://devrealtime.dingdinghouse.com/
-  testToken: 0fec85754c994f92a1b0c3097ab94841
+  testToken: d6c61f90daed41e78e519497112df626
 --- !u!1 &505776123
 GameObject:
   m_ObjectHideFlags: 0
@@ -32266,22 +32234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51db53697a53f7a479b8570674dae649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UnityEngine.UI.Extensions.NonDrawingGraphic
-  m_Material: {fileID: 0}
-  m_Color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  m_RaycastTarget: 1
-  m_RaycastTargetCache: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  <useLegacyMeshGeneration>k__BackingField: 1
-  m_Maskable: 1
-  m_IsMaskingGraphic: 0
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
 --- !u!114 &1254933791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38091,22 +38043,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51db53697a53f7a479b8570674dae649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UnityEngine.UI.Extensions.NonDrawingGraphic
-  m_Material: {fileID: 0}
-  m_Color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  m_RaycastTarget: 1
-  m_RaycastTargetCache: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  <useLegacyMeshGeneration>k__BackingField: 1
-  m_Maskable: 1
-  m_IsMaskingGraphic: 0
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
 --- !u!114 &1504529153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47576,22 +47512,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51db53697a53f7a479b8570674dae649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UnityEngine.UI.Extensions.NonDrawingGraphic
-  m_Material: {fileID: 0}
-  m_Color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  m_RaycastTarget: 1
-  m_RaycastTargetCache: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  <useLegacyMeshGeneration>k__BackingField: 1
-  m_Maskable: 1
-  m_IsMaskingGraphic: 0
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
 --- !u!222 &1928747978
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -48860,22 +48780,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51db53697a53f7a479b8570674dae649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UnityEngine.UI.Extensions.NonDrawingGraphic
-  m_Material: {fileID: 0}
-  m_Color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  m_RaycastTarget: 1
-  m_RaycastTargetCache: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  <useLegacyMeshGeneration>k__BackingField: 1
-  m_Maskable: 1
-  m_IsMaskingGraphic: 0
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
 --- !u!114 &2004136544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52836,22 +52740,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51db53697a53f7a479b8570674dae649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UnityEngine.UI.Extensions.NonDrawingGraphic
-  m_Material: {fileID: 0}
-  m_Color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  m_RaycastTarget: 1
-  m_RaycastTargetCache: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  <useLegacyMeshGeneration>k__BackingField: 1
-  m_Maskable: 1
-  m_IsMaskingGraphic: 0
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
 --- !u!114 &2131173502
 MonoBehaviour:
   m_ObjectHideFlags: 0
